@@ -444,12 +444,13 @@ html, body {
 
   /* Vertical opacity slider: narrow phones don't have the width to spare
      for the horizontal version, and this leaves room beside it for the
-     object-info overlay below. The writing-mode approach is the modern,
-     non-deprecated way to get a vertical range input; -webkit-appearance
-     is kept as a fallback for older WebKit that doesn't support it yet. */
+     object-info overlay below. writing-mode is the modern way to get a
+     vertical range input; a fixed height (rather than flex-stretching it)
+     avoids a Chrome bug where the painted track/fill ignores a flexed
+     height and overflows past the element's actual box. */
   #opacity-control {
     width: auto;
-    height: 190px;
+    height: 210px;
     padding: 14px 10px;
     display: flex;
     flex-direction: column;
@@ -459,16 +460,13 @@ html, body {
 
   #opacity-control label {
     margin-bottom: 0;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
   }
 
   #opacity-control input[type="range"] {
-    flex: 1;
     width: 24px;
+    height: 150px;
     writing-mode: vertical-lr;
     direction: rtl;
-    -webkit-appearance: slider-vertical;
   }
 
   /* Compact, always-on object-info overlay: shows name/type/discovery for
