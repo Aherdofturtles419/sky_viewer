@@ -31,6 +31,9 @@ let horizonOverlay;
 let horizonDate = new Date();
 let horizonIsLive = true;
 let horizonDateLabel;
+let sidebarEl;
+let infoPanelEl;
+let backdropEl;
 
 A.init.then(async () => {
   aladin = A.aladin('#aladin-lite-div', {
@@ -39,10 +42,80 @@ A.init.then(async () => {
     fov: 360,
     target: '0 +0',
     cooFrame: 'ICRS',
+    // Aladin's own built-in controls (coordinate frame display top-left,
+    // layers/goto/projection/fullscreen icons top-right) are turned off:
+    // they duplicate things this app already provides its own UI for
+    // (the sidebar instead of goto, a single fixed survey/projection), and
+    // they were overlapping the sidebar/info toggle buttons added for the
+    // mobile layout. Fullscreen is still reachable via the settings menu.
+    showFrame: false,
+    showLayersControl: false,
+    showGotoControl: false,
+    showProjectionControl: false,
+    showFullscreenControl: false,
   });
 
   opacitySlider = document.getElementById('opacity-slider');
   opacitySlider.addEventListener('input', onOpacityChange);
+
+  // Mobile layout: the sidebar and info panel become off-canvas drawers
+  // (see the max-width media query in style.css). These buttons/backdrop
+  // exist in the DOM on desktop too, but stay hidden there via CSS, so
+  // this wiring is simply never triggered on a wide screen.
+  sidebarEl = document.getElementById('sidebar');
+  infoPanelEl = document.getElementById('info-panel');
+  backdropEl = document.getElementById('panel-backdrop');
+
+  document.getElementById('sidebar-toggle').addEventListener('click', () => {
+    setPanelOpen(sidebarEl, !sidebarEl.classList.contains('open'));
+    setPanelOpen(infoPanelEl, false);
+  });
+  document.getElementById('info-toggle').addEventListener('click', () => {
+    setPanelOpen(infoPanelEl, !infoPanelEl.classList.contains('open'));
+    setPanelOpen(sidebarEl, false);
+  });
+  backdropEl.addEventListener('click', () => {
+    setPanelOpen(sidebarEl, false);
+    setPanelOpen(infoPanelEl, false);
+  });
+
+  // Settings menu: a small dropdown under its own gear button, rather than
+  // a full drawer, so it just toggles open/closed and closes on any click
+  // outside itself (no backdrop needed).
+  const settingsToggleEl = document.getElementById('settings-toggle');
+  const settingsMenuEl = document.getElementById('settings-menu');
+  const fullscreenButtonEl = document.getElementById('fullscreen-toggle');
+
+  settingsToggleEl.addEventListener('click', (event) => {
+    event.stopPropagation();
+    settingsMenuEl.classList.toggle('open');
+  });
+  document.addEventListener('click', (event) => {
+    if (settingsMenuEl.classList.contains('open') && !settingsMenuEl.contains(event.target)
+      && event.target !== settingsToggleEl) {
+      settingsMenuEl.classList.remove('open');
+    }
+  });
+
+  fullscreenButtonEl.addEventListener('click', () => {
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else {
+      document.getElementById('app').requestFullscreen();
+    }
+    settingsMenuEl.classList.remove('open');
+  });
+  document.addEventListener('fullscreenchange', () => {
+    fullscreenButtonEl.textContent = document.fullscreenElement ? 'Exit fullscreen' : 'Fullscreen';
+  });
+
+  // A long press on a touchscreen can register as a right-click in some
+  // browsers (and always does when testing via a desktop device emulator),
+  // which would pop the browser's own context menu on top of these
+  // buttons. Suppress it here since these are just buttons, not links/text.
+  document.querySelectorAll('.panel-toggle').forEach((el) => {
+    el.addEventListener('contextmenu', (event) => event.preventDefault());
+  });
 
   const response = await fetch('manifest.json');
   manifest = await response.json();
@@ -345,7 +418,10 @@ function buildSidebar() {
       appendEntryNameSpans(label, entry);
       li.appendChild(label);
 
-      li.addEventListener('click', () => flyToObject(entry.id));
+      li.addEventListener('click', () => {
+        flyToObject(entry.id);
+        setPanelOpen(sidebarEl, false);
+      });
       list.appendChild(li);
     });
   });
@@ -724,6 +800,15 @@ function addPhoto(container, src, caption) {
     figure.appendChild(figcaption);
   }
   container.appendChild(figure);
+}
+
+// Opens/closes a mobile drawer panel (#sidebar or #info-panel) and keeps
+// the dimming backdrop in sync. No-op-ish on desktop, where the drawers
+// are laid out as plain flex columns and .open has no visual effect.
+function setPanelOpen(panelEl, open) {
+  panelEl.classList.toggle('open', open);
+  backdropEl.classList.toggle('open',
+    sidebarEl.classList.contains('open') || infoPanelEl.classList.contains('open'));
 }
 
 function clearInfoPanel() {
