@@ -265,6 +265,10 @@ html, body {
   color: #ffffff;
 }
 
+#mobile-info-overlay {
+  display: none;
+}
+
 #panel-backdrop {
   display: none;
   position: fixed;
@@ -436,5 +440,160 @@ html, body {
      wins regardless of which stylesheet lands later in the DOM. */
   #map-area .aladin-location {
     display: none;
+  }
+
+  /* Vertical opacity slider: narrow phones don't have the width to spare
+     for the horizontal version, and this leaves room beside it for the
+     object-info overlay below. The writing-mode approach is the modern,
+     non-deprecated way to get a vertical range input; -webkit-appearance
+     is kept as a fallback for older WebKit that doesn't support it yet. */
+  #opacity-control {
+    width: auto;
+    height: 190px;
+    padding: 14px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #opacity-control label {
+    margin-bottom: 0;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+  #opacity-control input[type="range"] {
+    flex: 1;
+    width: 24px;
+    writing-mode: vertical-lr;
+    direction: rtl;
+    -webkit-appearance: slider-vertical;
+  }
+
+  /* Compact, always-on object-info overlay: shows name/type/discovery for
+     whichever object is currently centered, without needing to open the
+     full info drawer. Hidden entirely until an object is selected
+     (.has-object), and collapsible down to a small tab (.collapsed) via
+     the chevron buttons. display:contents on the wrapper means .collapsed
+     is purely a visibility switch between the two children below -- it
+     adds no box of its own, so both children still position against
+     #map-area. */
+  #mobile-info-overlay.has-object {
+    display: contents;
+  }
+
+  #mobile-info-overlay.collapsed #mobile-info-panel {
+    display: none;
+  }
+
+  #mobile-info-overlay:not(.collapsed) #mobile-info-tab {
+    display: none;
+  }
+
+  #mobile-info-panel {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 50%;
+    max-height: 50%;
+    z-index: 22;
+    display: flex;
+    flex-direction: column;
+    background: #12151cc0;
+    backdrop-filter: blur(6px);
+    border: 1px solid #262b36;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+  }
+
+  #mobile-info-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px 6px 0;
+    flex-shrink: 0;
+  }
+
+  #mobile-info-header button {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid #262b36;
+    background: #1b2029cc;
+    color: #c7cdda;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #mobile-info-body {
+    padding: 2px 14px 14px;
+    overflow-y: auto;
+    min-height: 0;
+  }
+
+  #mobile-info-body h2 {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.25;
+    color: #ffffff;
+  }
+
+  #mobile-info-category {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 3px 0 10px;
+  }
+
+  .mobile-info-label {
+    font-size: 11px;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 1px solid #262b36;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+  }
+
+  #mobile-info-discovery {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4px 10px;
+    font-size: 12px;
+  }
+
+  #mobile-info-discovery dt {
+    color: #9aa3b2;
+  }
+
+  #mobile-info-discovery dd {
+    margin: 0;
+    color: #e6e8ee;
+    text-align: right;
+  }
+
+  #mobile-info-tab {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 52px;
+    height: 36px;
+    z-index: 22;
+    border-radius: 8px;
+    background: #12151cc0;
+    backdrop-filter: blur(6px);
+    border: 1px solid #262b36;
+    color: #c7cdda;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

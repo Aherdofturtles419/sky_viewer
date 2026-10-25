@@ -113,8 +113,18 @@ A.init.then(async () => {
   // browsers (and always does when testing via a desktop device emulator),
   // which would pop the browser's own context menu on top of these
   // buttons. Suppress it here since these are just buttons, not links/text.
-  document.querySelectorAll('.panel-toggle').forEach((el) => {
+  document.querySelectorAll('.panel-toggle, #mobile-info-collapse, #mobile-info-tab').forEach((el) => {
     el.addEventListener('contextmenu', (event) => event.preventDefault());
+  });
+
+  // Compact mobile object-info overlay: collapses down to a small tab and
+  // back via its own chevron buttons, independent of the full info drawer.
+  const mobileInfoOverlayEl = document.getElementById('mobile-info-overlay');
+  document.getElementById('mobile-info-collapse').addEventListener('click', () => {
+    mobileInfoOverlayEl.classList.add('collapsed');
+  });
+  document.getElementById('mobile-info-tab').addEventListener('click', () => {
+    mobileInfoOverlayEl.classList.remove('collapsed');
   });
 
   const response = await fetch('manifest.json');
@@ -675,23 +685,42 @@ function addRow(dl, label, value) {
   dl.appendChild(dd);
 }
 
+// Renders an object's category list (e.g. "Galaxy" or "Nebula + Galaxy" for
+// a multi-type entry) into `container`, each category in its own color.
+// Shared by the full info panel and the compact mobile overlay.
+function renderCategoryList(container, categories) {
+  container.innerHTML = '';
+  categories.forEach((category, i) => {
+    if (i > 0) {
+      container.appendChild(document.createTextNode(' + '));
+    }
+    const span = document.createElement('span');
+    span.textContent = category;
+    span.style.color = categoryColor(category);
+    container.appendChild(span);
+  });
+}
+
+// Fills a discovery <dl> with the standard set of rows, returning whether
+// anything was added (so the caller can hide an all-empty section). Shared
+// by the full info panel and the compact mobile overlay.
+function populateDiscoveryDl(dl, discovery, discoverer) {
+  dl.innerHTML = '';
+  addRow(dl, 'Discovered by', discoverer ? discoverer.name : null);
+  addRow(dl, 'Date', discovery ? discovery.date : null);
+  addRow(dl, 'Location', discovery ? discovery.location : null);
+  addRow(dl, 'Method', discovery ? discovery.method : null);
+  addRow(dl, 'Notes', discovery ? discovery.notes : null);
+  return dl.children.length > 0;
+}
+
 function updateInfoPanel(entry) {
   document.getElementById('info-empty').hidden = true;
   document.getElementById('info-content').hidden = false;
   const categories = entryCategories(entry);
   appendEntryNameSpans(document.getElementById('info-name'), entry);
 
-  const infoCategory = document.getElementById('info-category');
-  infoCategory.innerHTML = '';
-  categories.forEach((category, i) => {
-    if (i > 0) {
-      infoCategory.appendChild(document.createTextNode(' + '));
-    }
-    const span = document.createElement('span');
-    span.textContent = category;
-    span.style.color = categoryColor(category);
-    infoCategory.appendChild(span);
-  });
+  renderCategoryList(document.getElementById('info-category'), categories);
 
   // entry.distance is either one {value_ly, source} object (the image shows
   // a single physical object, however many nebula/galaxy types it's
@@ -762,14 +791,10 @@ function updateInfoPanel(entry) {
 
   const discovery = entry.discovery || null;
   const discoverer = discovery ? discoverers[discovery.discoverer_id] : null;
+
   const discoverySection = document.getElementById('info-discovery-section');
-  const discoveryDl = document.getElementById('info-discovery');
-  discoveryDl.innerHTML = '';
-  addRow(discoveryDl, 'Discovered by', discoverer ? discoverer.name : null);
-  addRow(discoveryDl, 'Date', discovery ? discovery.date : null);
-  addRow(discoveryDl, 'Location', discovery ? discovery.location : null);
-  addRow(discoveryDl, 'Method', discovery ? discovery.method : null);
-  addRow(discoveryDl, 'Notes', discovery ? discovery.notes : null);
+  const hasDiscoveryRows = populateDiscoveryDl(document.getElementById('info-discovery'), discovery, discoverer);
+  discoverySection.hidden = !hasDiscoveryRows;
 
   const photos = document.getElementById('info-discovery-photos');
   photos.innerHTML = '';
@@ -778,7 +803,16 @@ function updateInfoPanel(entry) {
     addPhoto(photos, discoverer.telescope_image, discoverer.telescope_name);
   }
 
-  discoverySection.hidden = discoveryDl.children.length === 0;
+  // Compact mobile overlay: a smaller mirror of name/type/discovery only
+  // (no capture/equipment/photos -- that detail stays in the full drawer).
+  document.getElementById('mobile-info-overlay').classList.add('has-object');
+  appendEntryNameSpans(document.getElementById('mobile-info-name'), entry);
+  renderCategoryList(document.getElementById('mobile-info-category'), categories);
+  const mobileDiscoverySection = document.getElementById('mobile-info-discovery-section');
+  const hasMobileDiscoveryRows = populateDiscoveryDl(
+    document.getElementById('mobile-info-discovery'), discovery, discoverer,
+  );
+  mobileDiscoverySection.hidden = !hasMobileDiscoveryRows;
 }
 
 // Appends a <figure><img><figcaption> to a photo row, skipping entries with
@@ -814,6 +848,7 @@ function setPanelOpen(panelEl, open) {
 function clearInfoPanel() {
   document.getElementById('info-empty').hidden = false;
   document.getElementById('info-content').hidden = true;
+  document.getElementById('mobile-info-overlay').classList.remove('has-object');
 }
 
 // Great-circle angular separation between two RA/Dec points, in degrees.

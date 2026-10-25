@@ -45,6 +45,23 @@
         <label for="opacity-slider">Overlay opacity</label>
         <input type="range" id="opacity-slider" min="0" max="100" value="100">
       </div>
+
+      <div id="mobile-info-overlay">
+        <div id="mobile-info-panel">
+          <div id="mobile-info-header">
+            <button id="mobile-info-collapse" aria-label="Hide object info">&#9660;</button>
+          </div>
+          <div id="mobile-info-body">
+            <h2 id="mobile-info-name"></h2>
+            <div id="mobile-info-category"></div>
+            <div id="mobile-info-discovery-section" hidden>
+              <div class="mobile-info-label">Discovery</div>
+              <dl id="mobile-info-discovery"></dl>
+            </div>
+          </div>
+        </div>
+        <button id="mobile-info-tab" aria-label="Show object info">&#9650;</button>
+      </div>
     </div>
 
     <aside id="info-panel">
