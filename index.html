@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sky Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <h1>Sky Viewer</h1>
+
+      <ul id="object-list"></ul>
+
+      <div id="horizon-control">
+        <label>Horizon date</label>
+        <div id="horizon-date-label"></div>
+        <div id="horizon-buttons">
+          <button id="horizon-back-month">&laquo; Month</button>
+          <button id="horizon-now">Now</button>
+          <button id="horizon-forward-month">Month &raquo;</button>
+        </div>
+        <div id="horizon-buttons">
+          <button id="horizon-back-day">&laquo; Day</button>
+          <button id="horizon-forward-day">Day &raquo;</button>
+        </div>
+        <label id="horizon-toggle-label">
+          <input type="checkbox" id="horizon-toggle">
+          Show horizon ring
+        </label>
+      </div>
+    </aside>
+
+    <div id="map-area">
+      <div id="aladin-lite-div"></div>
+      <div id="opacity-control">
+        <label for="opacity-slider">Overlay opacity</label>
+        <input type="range" id="opacity-slider" min="0" max="100" value="100">
+      </div>
+    </div>
+
+    <aside id="info-panel">
+      <div id="info-empty">Click an image or its footprint to see details.</div>
+      <div id="info-content" hidden>
+        <h2 id="info-name"></h2>
+        <div id="info-category"></div>
+        <div id="info-distance" hidden></div>
+
+        <section class="info-section" id="info-capture-section" hidden>
+          <h3>Capture</h3>
+          <dl id="info-capture"></dl>
+        </section>
+
+        <section class="info-section" id="info-equipment-section" hidden>
+          <h3>Equipment</h3>
+          <dl id="info-equipment"></dl>
+        </section>
+
+        <section class="info-section" id="info-discovery-section" hidden>
+          <h3>Discovery</h3>
+          <dl id="info-discovery"></dl>
+          <div id="info-discovery-photos"></div>
+        </section>
+
+        <section class="info-section">
+          <h3>Position</h3>
+          <dl id="info-position"></dl>
+        </section>
+      </div>
+    </aside>
+  </div>
+
+  <script type="text/javascript" src="https://aladin.cds.unistra.fr/AladinLite/api/v3/3.8.1/aladin.js" charset="utf-8"></script>
+  <script src="app.js"></script>
+</body>
+</html>

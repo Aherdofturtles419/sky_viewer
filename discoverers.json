@@ -1,0 +1,152 @@
+{
+  "john-bevis": {
+    "name": "John Bevis",
+    "portrait": null,
+    "telescope_name": "Small reflecting telescope",
+    "telescope_image": null
+  },
+  "al-sufi": {
+    "name": "Abd al-Rahman al-Sufi",
+    "portrait": null,
+    "telescope_name": "Naked eye",
+    "telescope_image": null
+  },
+  "charles-messier": {
+    "name": "Charles Messier",
+    "portrait": "images/discoverers/charles-messier.jpg",
+    "telescope_name": "3.5-inch refractor",
+    "telescope_image": null
+  },
+  "william-herschel": {
+    "name": "William Herschel",
+    "portrait": "images/discoverers/william-herschel.jpg",
+    "telescope_name": "18.7-inch (47 cm) reflector",
+    "telescope_image": "images/telescopes/herschel-20ft-reflector.jpg"
+  },
+  "e-e-barnard": {
+    "name": "E. E. Barnard",
+    "portrait": "images/discoverers/e-e-barnard.jpg",
+    "telescope_name": "Wide-field portrait-lens camera",
+    "telescope_image": null
+  },
+  "pierre-mechain": {
+    "name": "Pierre Mechain",
+    "portrait": null,
+    "telescope_name": "Small refractor",
+    "telescope_image": null
+  },
+  "johann-elert-bode": {
+    "name": "Johann Elert Bode",
+    "portrait": null,
+    "telescope_name": "Berlin Observatory refractor",
+    "telescope_image": null
+  },
+  "edward-pigott": {
+    "name": "Edward Pigott",
+    "portrait": null,
+    "telescope_name": "Small reflecting telescope",
+    "telescope_image": null
+  },
+  "giovanni-battista-hodierna": {
+    "name": "Giovanni Battista Hodierna",
+    "portrait": null,
+    "telescope_name": "20x hand telescope",
+    "telescope_image": null
+  },
+  "philippe-loys-de-cheseaux": {
+    "name": "Philippe Loys de Cheseaux",
+    "portrait": null,
+    "telescope_name": "Reflecting telescope",
+    "telescope_image": null
+  },
+  "nicolas-claude-fabri-de-peiresc": {
+    "name": "Nicolas-Claude Fabri de Peiresc",
+    "portrait": null,
+    "telescope_name": "Galilean-style refractor",
+    "telescope_image": null
+  },
+  "beverly-lynds": {
+    "name": "Beverly Lynds",
+    "portrait": null,
+    "telescope_name": "Palomar 48-inch Schmidt (POSS plates)",
+    "telescope_image": null
+  },
+  "stewart-sharpless": {
+    "name": "Stewart Sharpless",
+    "portrait": null,
+    "telescope_name": "Palomar 48-inch Schmidt (POSS plates)",
+    "telescope_image": null
+  },
+  "lewis-swift": {
+    "name": "Lewis Swift",
+    "portrait": null,
+    "telescope_name": "16-inch refractor",
+    "telescope_image": null
+  },
+  "max-wolf": {
+    "name": "Max Wolf",
+    "portrait": null,
+    "telescope_name": "Bruce astrograph (photographic)",
+    "telescope_image": null
+  },
+  "caroline-herschel": {
+    "name": "Caroline Herschel",
+    "portrait": null,
+    "telescope_name": "Small Newtonian sweeper",
+    "telescope_image": null
+  },
+  "edouard-stephan": {
+    "name": "Edouard Stephan",
+    "portrait": null,
+    "telescope_name": "31-inch (80 cm) reflector, Marseille Observatory",
+    "telescope_image": null
+  },
+  "benjamin-markarian": {
+    "name": "Benjamin Markarian",
+    "portrait": null,
+    "telescope_name": "Byurakan 1-meter Schmidt telescope",
+    "telescope_image": null
+  },
+  "george-abell": {
+    "name": "George Abell",
+    "portrait": null,
+    "telescope_name": "Palomar 48-inch Schmidt (POSS plates)",
+    "telescope_image": null
+  },
+  "albert-marth": {
+    "name": "Albert Marth",
+    "portrait": null,
+    "telescope_name": "48-inch reflector, Malta (Lassell's telescope)",
+    "telescope_image": null
+  },
+  "eduard-schonfeld": {
+    "name": "Eduard Schoenfeld",
+    "portrait": null,
+    "telescope_name": "Mannheim Observatory refractor",
+    "telescope_image": null
+  },
+  "nicolas-louis-de-lacaille": {
+    "name": "Nicolas-Louis de Lacaille",
+    "portrait": null,
+    "telescope_name": "0.5-inch refractor (Cape of Good Hope survey)",
+    "telescope_image": null
+  },
+  "guillaume-bigourdan": {
+    "name": "Guillaume Bigourdan",
+    "portrait": null,
+    "telescope_name": "Paris Observatory refractor",
+    "telescope_image": null
+  },
+  "galileo-galilei": {
+    "name": "Galileo Galilei",
+    "portrait": null,
+    "telescope_name": "Galilean refractor",
+    "telescope_image": null
+  },
+  "grigory-shajn": {
+    "name": "Grigory Shajn",
+    "portrait": null,
+    "telescope_name": "Simeis Observatory astrograph (photographic)",
+    "telescope_image": null
+  }
+}

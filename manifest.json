@@ -1,0 +1,4525 @@
+[
+  {
+    "id": "c-6-cats-eye-nebula",
+    "name": "C 6 (Cats Eye Nebula)",
+    "category": "Planetary Nebula",
+    "file": "images/c-6-cats-eye-nebula.jpg",
+    "image_version": 1792865215,
+    "ra": 269.6379509442,
+    "dec": 66.63470512844,
+    "width_deg": 1.492654484263953,
+    "height_deg": 0.9863268255116406,
+    "rotation_deg": -128.09894572140433,
+    "corners": [
+      [
+        271.80145315688276,
+        66.90313205363975
+      ],
+      [
+        269.4615707088599,
+        65.74309488019362
+      ],
+      [
+        267.52267145102206,
+        66.33724442763386
+      ],
+      [
+        269.8268110992882,
+        67.526162993175
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1983,
+      "CRPIX1": 1500.3807106598983,
+      "CRPIX2": 991.7512690355329,
+      "CRVAL1": 269.6379509442,
+      "CRVAL2": 66.63470512844,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0004977783871032831,
+      "CDELT2": 0.0004976823122145545,
+      "PC1_1": -0.617003553882554,
+      "PC1_2": -0.7869603639931927,
+      "PC2_1": -0.7870755326449914,
+      "PC2_2": 0.6168566331908925,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Cat's Eye Nebula",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 363.06866,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 35,
+      "total_exposure_s": 10500.0,
+      "date_obs": "2025-05-19T02:30:02.031",
+      "date_end": "2025-05-20T05:04:27.053"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "February 15, 1786",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 3300,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "c-48-rosette-nebula",
+    "name": "C 48 (Rosette Nebula)",
+    "category": "Emission Nebula",
+    "file": "images/c-48-rosette-nebula.jpg",
+    "image_version": 1792865217,
+    "ra": 97.90732217024,
+    "dec": 5.006890264568,
+    "width_deg": 2.0913886344715413,
+    "height_deg": 1.3976868636796786,
+    "rotation_deg": 3.4097576125897535,
+    "corners": [
+      [
+        96.81664826992024,
+        5.6413708100624325
+      ],
+      [
+        98.91471505282045,
+        5.76589393577542
+      ],
+      [
+        98.99619945108834,
+        4.370565724831387
+      ],
+      [
+        96.90258792948615,
+        4.246308674086355
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.2729257641922,
+      "CRPIX2": 1002.4563318777293,
+      "CRVAL1": 97.90732217024,
+      "CRVAL2": 5.006890264568,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006975011025019249,
+      "CDELT2": 0.0006979378378317845,
+      "PC1_1": 0.9982157377364147,
+      "PC1_2": 0.05971047592630112,
+      "PC2_1": 0.05943832583992405,
+      "PC2_2": -0.998231979762894,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Rosette A",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 361.14859,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 98,
+      "total_exposure_s": 29400.0,
+      "date_obs": "2024-10-21T07:03:47.795",
+      "date_end": "2024-11-03T10:25:40.196"
+    },
+    "discovery": {
+      "discoverer_id": "lewis-swift",
+      "date": "1865",
+      "location": "Rochester, New York, USA",
+      "method": "Visual (telescopic)",
+      "notes": "The embedded star cluster NGC 2244 had already been found by John Flamsteed in 1690; the surrounding nebulosity itself eluded observers until Swift's survey."
+    },
+    "distance": {
+      "value_ly": 5200,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "c-38-needle-galaxy",
+    "name": "C 38 (Needle Galaxy)",
+    "category": "Galaxy",
+    "file": "images/c-38-needle-galaxy.jpg",
+    "image_version": 1792865216,
+    "ra": 189.0851195971,
+    "dec": 25.98976538187,
+    "width_deg": 1.9769964248451959,
+    "height_deg": 1.2607557131965077,
+    "rotation_deg": -78.4845430501666,
+    "corners": [
+      [
+        189.55697170312797,
+        27.083100059054512
+      ],
+      [
+        189.9852014454757,
+        25.143851282195726
+      ],
+      [
+        188.62140564963104,
+        24.894343138786866
+      ],
+      [
+        188.17145645663888,
+        26.829442235584356
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1913,
+      "CRPIX1": 1500.1444251877526,
+      "CRPIX2": 956.528018486424,
+      "CRVAL1": 189.0851195971,
+      "CRVAL2": 25.98976538187,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006595240170886864,
+      "CDELT2": 0.000659315690565378,
+      "PC1_1": 0.19957170546820244,
+      "PC1_2": -0.9798832248673884,
+      "PC2_1": -0.979883051877205,
+      "PC2_2": -0.19957255483611624,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Caldwell 38",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 360.0,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 45,
+      "total_exposure_s": 13500.0,
+      "date_obs": "2025-03-03T05:03:55.039",
+      "date_end": "2025-03-03T10:22:35.577"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "April 9, 1785",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 42000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "simeis-147-spaghetti-nebula",
+    "name": "Simeis 147 (Spaghetti Nebula)",
+    "category": "Supernova Remnant",
+    "file": "images/simeis-147-spaghetti-nebula.jpg",
+    "image_version": 1792865217,
+    "ra": 84.59092840229,
+    "dec": 27.53197279386,
+    "width_deg": 2.0385212304863547,
+    "height_deg": 1.28309950204559,
+    "rotation_deg": -175.52814005673787,
+    "corners": [
+      [
+        85.78721579088973,
+        26.966797811074223
+      ],
+      [
+        83.50845138324941,
+        26.808780195617604
+      ],
+      [
+        83.38203284666864,
+        28.086966039289244
+      ],
+      [
+        85.68730604870304,
+        28.246839473362346
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1888,
+      "CRPIX1": 1500.2800597460791,
+      "CRPIX2": 944.3614637789395,
+      "CRVAL1": 84.59092840229,
+      "CRVAL2": 27.53197279386,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006798635500844452,
+      "CDELT2": 0.0006800884379908226,
+      "PC1_1": -0.9969329436531391,
+      "PC1_2": -0.07826049999256862,
+      "PC2_1": -0.07794189828613335,
+      "PC2_2": 0.996957903068908,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Simeis 147",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 361.06635,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 81,
+      "total_exposure_s": 24300.0,
+      "date_obs": "2024-11-13T04:50:13.700",
+      "date_end": "2024-12-14T09:17:37.629"
+    },
+    "discovery": {
+      "discoverer_id": "grigory-shajn",
+      "date": "1952",
+      "location": "Simeis Observatory, Crimea, USSR",
+      "method": "Photographic",
+      "notes": "Catalogued by Grigory Shajn and Vera Gaze in their survey of emission nebulae on Simeis Observatory plates."
+    },
+    "distance": {
+      "value_ly": 3000,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "ngc-6302-butterfly-nebula",
+    "name": "Sh2-108 (Butterfly Nebula)",
+    "category": "Emission Nebula",
+    "file": "images/ngc-6302-butterfly-nebula.jpg",
+    "image_version": 1792865218,
+    "ra": 306.3623630994,
+    "dec": 40.09549181337,
+    "width_deg": 2.082204261731275,
+    "height_deg": 1.3908140629898362,
+    "rotation_deg": -127.86881960742998,
+    "corners": [
+      [
+        307.92420032546966,
+        40.47985460362366
+      ],
+      [
+        306.246467426668,
+        38.84648232809771
+      ],
+      [
+        304.8182293414922,
+        39.69017723382542
+      ],
+      [
+        306.4822711084702,
+        41.344170191160124
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.2729257641922,
+      "CRPIX2": 1002.4563318777293,
+      "CRVAL1": 306.3623630994,
+      "CRVAL2": 40.09549181337,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006944463882642231,
+      "CDELT2": 0.0006944949710851011,
+      "PC1_1": -0.613838646274608,
+      "PC1_2": -0.7894315146608708,
+      "PC2_1": -0.7893411235339294,
+      "PC2_2": 0.6139548767606573,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Butterfly Nebula",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.73874,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 27,
+      "total_exposure_s": 8100.0,
+      "date_obs": "2025-05-25T02:53:10.186",
+      "date_end": "2025-05-26T08:38:43.143"
+    },
+    "discovery": {
+      "discoverer_id": "stewart-sharpless",
+      "date": "1959",
+      "location": "Palomar Observatory, California, USA",
+      "method": "Photographic (Palomar Observatory Sky Survey)",
+      "notes": "Catalogued as Sh2-108 in Sharpless's survey of HII regions; surrounds the open cluster M6 (Butterfly Cluster)."
+    },
+    "distance": {
+      "value_ly": 5000,
+      "source": "Literature estimate (Sharpless catalog)"
+    }
+  },
+  {
+    "id": "ngc-7822",
+    "name": "NGC 7822",
+    "category": "Emission Nebula",
+    "file": "images/ngc-7822.jpg",
+    "image_version": 1792865219,
+    "ra": 0.2211913642192,
+    "dec": 67.31774550502,
+    "width_deg": 2.0799427855012333,
+    "height_deg": 1.388714626485251,
+    "rotation_deg": -127.21336432976815,
+    "corners": [
+      [
+        3.3369762427411276,
+        67.69655339820412
+      ],
+      [
+        0.03393863172242187,
+        66.06964293766116
+      ],
+      [
+        357.20849567545423,
+        66.88033918639599
+      ],
+      [
+        0.42765675564099226,
+        68.56535751446408
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.136462882096,
+      "CRPIX2": 1002.3198689956333,
+      "CRVAL1": 0.2211913642192,
+      "CRVAL2": 67.31774550502,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.000693745756142416,
+      "CDELT2": 0.0006933923145017763,
+      "PC1_1": -0.604721091179398,
+      "PC1_2": -0.7964373182384149,
+      "PC2_1": -0.7967107602609541,
+      "PC2_2": 0.604360789995854,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 7822",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 363.18226,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 132,
+      "total_exposure_s": 39600.0,
+      "date_obs": "2025-08-15T01:57:01.222",
+      "date_end": "2025-08-16T08:52:23.626"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "November 3, 1787",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 3000,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "ngc-5907-knifes-edge-galaxy",
+    "name": "NGC 5907 (Knifes Edge Galaxy)",
+    "category": "Galaxy",
+    "file": "images/ngc-5907-knifes-edge-galaxy.jpg",
+    "image_version": 1792865219,
+    "ra": 228.9788867886,
+    "dec": 55.89550319925,
+    "width_deg": 1.2777852792344557,
+    "height_deg": 0.8467177485063533,
+    "rotation_deg": 99.79546352655208,
+    "corners": [
+      [
+        228.438444440997,
+        55.19290728653415
+      ],
+      [
+        228.02732486449833,
+        56.44965317539736
+      ],
+      [
+        229.53929746957425,
+        56.595890022399225
+      ],
+      [
+        229.90354884351484,
+        55.33446823201835
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1988,
+      "CRPIX1": 1500.2236135957066,
+      "CRPIX2": 994.4096601073345,
+      "CRVAL1": 228.9788867886,
+      "CRVAL2": 55.89550319925,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0004261774375088855,
+      "CDELT2": 0.0004260852651005167,
+      "PC1_1": -0.17010046180358543,
+      "PC1_2": 0.9854267262938462,
+      "PC2_1": 0.9854548562380436,
+      "PC2_2": 0.16993741882486252,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 5907",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 360.89172,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 31,
+      "total_exposure_s": 9300.0,
+      "date_obs": "2025-03-07T06:12:45.413",
+      "date_end": "2025-03-07T09:25:35.112"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "March 9, 1788",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 40000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "ngc-4725",
+    "name": "NGC 4725",
+    "category": "Galaxy",
+    "file": "images/ngc-4725.jpg",
+    "image_version": 1792865220,
+    "ra": 192.6286085878,
+    "dec": 25.51949428236,
+    "width_deg": 2.028576832608735,
+    "height_deg": 1.3614448482805503,
+    "rotation_deg": 53.2614551444636,
+    "corners": [
+      [
+        191.35628874949907,
+        25.10815783056266
+      ],
+      [
+        192.69731316435852,
+        26.739311138906388
+      ],
+      [
+        193.9102412715007,
+        25.919679443101565
+      ],
+      [
+        192.56195917617484,
+        24.29956016411952
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2014,
+      "CRPIX1": 1500.2802167009154,
+      "CRPIX2": 1007.0988230898561,
+      "CRVAL1": 192.6286085878,
+      "CRVAL2": 25.51949428236,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006765921835791969,
+      "CDELT2": 0.0006764081230256902,
+      "PC1_1": 0.5981148830606378,
+      "PC1_2": 0.80141037344257,
+      "PC2_1": 0.8015251363182463,
+      "PC2_2": -0.5979610822202536,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 4725",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.85427,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 49,
+      "total_exposure_s": 14700.0,
+      "date_obs": "2025-04-28T02:01:05.172",
+      "date_end": "2025-04-28T06:46:57.221"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "April 15, 1785",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 40000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "ngc-4631-whale-galaxy",
+    "name": "NGC 4631 (Whale Galaxy)",
+    "category": "Galaxy",
+    "file": "images/ngc-4631-whale-galaxy.jpg",
+    "image_version": 1792865220,
+    "ra": 190.7341214543,
+    "dec": 32.36307984526,
+    "width_deg": 2.090266381638025,
+    "height_deg": 1.3964832677596928,
+    "rotation_deg": -79.69533377408125,
+    "corners": [
+      [
+        191.33376899150235,
+        33.514757739669705
+      ],
+      [
+        191.75854487337082,
+        31.455423567745306
+      ],
+      [
+        190.14943120643335,
+        31.208290436146477
+      ],
+      [
+        189.68886958169193,
+        33.261941244036564
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.272975432211,
+      "CRPIX2": 1002.3657870791628,
+      "CRVAL1": 190.7341214543,
+      "CRVAL2": 32.36307984526,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006973293177517766,
+      "CDELT2": 0.0006971339599990687,
+      "PC1_1": 0.17882784916488706,
+      "PC1_2": -0.9838803790924282,
+      "PC2_1": -0.9838463766750879,
+      "PC2_2": -0.1790148236970924,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": null,
+      "telescope": null,
+      "focal_length_mm": 360.99249,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": null,
+      "bayer_pattern": null,
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 68,
+      "total_exposure_s": 12240.0,
+      "date_obs": null,
+      "date_end": null
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "March 20, 1787",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 25000000,
+      "source": "NED / SIMBAD consensus"
+    }
+  },
+  {
+    "id": "c-60-c-61-antennae-galxies",
+    "name": "C 60 & C 61 (Antennae Galxies)",
+    "category": "Galaxy",
+    "file": "images/c-60-c-61-antennae-galxies.jpg",
+    "image_version": 1792879325,
+    "ra": 180.2670464469,
+    "dec": -18.97854583376,
+    "width_deg": 0.8330725721754155,
+    "height_deg": 0.9253584271057858,
+    "rotation_deg": 100.50808580452559,
+    "corners": [
+      [
+        179.86511758187893,
+        -19.472116382396578
+      ],
+      [
+        179.70674141371734,
+        -18.652602553748864
+      ],
+      [
+        180.66659874782533,
+        -18.48411330961282
+      ],
+      [
+        180.82954244165194,
+        -19.302797444618804
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 2187,
+      "NAXIS2": 2431,
+      "CRPIX1": 1094.0,
+      "CRPIX2": 1216.0,
+      "CRVAL1": 180.2670464469,
+      "CRVAL2": -18.97854583376,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 0.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.00038082342457049077,
+      "CDELT2": 0.0003811144923904917,
+      "PC1_1": -0.18251326639064058,
+      "PC1_2": 0.9832033907546389,
+      "PC2_1": 0.9832269773130484,
+      "PC2_2": 0.18238615924418775,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": null,
+      "telescope": null,
+      "focal_length_mm": 361.1654,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": null,
+      "bayer_pattern": null,
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 36,
+      "total_exposure_s": 6480.0,
+      "date_obs": null,
+      "date_end": null
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "February 7, 1785",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)",
+      "notes": "Their looping tidal tails earned them the nickname 'Antennae'; the pair is a textbook example of a galaxy merger in progress."
+    },
+    "distance": {
+      "value_ly": 45000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "ngc-2403",
+    "name": "NGC 2403",
+    "category": "Galaxy",
+    "file": "images/ngc-2403.jpg",
+    "image_version": 1792869462,
+    "ra": 114.2132931693,
+    "dec": 65.60058945615,
+    "width_deg": 1.2291425894651837,
+    "height_deg": 0.8250560820900731,
+    "rotation_deg": 151.90650359880786,
+    "corners": [
+      [
+        115.0347331737975,
+        64.94513592650162
+      ],
+      [
+        112.43604431233464,
+        65.51582510458056
+      ],
+      [
+        113.34929664212281,
+        66.25170101811527
+      ],
+      [
+        116.00056648297829,
+        65.6648093860739
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2014,
+      "CRPIX1": 1500.232342007435,
+      "CRPIX2": 1007.2026022304833,
+      "CRVAL1": 114.2132931693,
+      "CRVAL2": 65.60058945615,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0004098782020339187,
+      "CDELT2": 0.000409893544451035,
+      "PC1_1": -0.8821780763739919,
+      "PC1_2": 0.4709159601936244,
+      "PC2_1": 0.4708929222891883,
+      "PC2_2": 0.8821903738637984,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 2403",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 361.07153,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 77,
+      "total_exposure_s": 23100.0,
+      "date_obs": "2025-02-23T00:21:19.311",
+      "date_end": "2025-02-26T03:57:38.544"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "November 1, 1788",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 8000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "ngc-2359-thors-helmet",
+    "name": "NGC 2359 (Thors Helmet)",
+    "category": "Emission Nebula",
+    "file": "images/ngc-2359-thors-helmet.jpg",
+    "image_version": 1792879325,
+    "ra": 109.6529176258,
+    "dec": -13.18990768355,
+    "width_deg": 2.0913118028752353,
+    "height_deg": 1.3986509316789393,
+    "rotation_deg": 3.112206858558305,
+    "corners": [
+      [
+        108.54487653556865,
+        -12.546064506292137
+      ],
+      [
+        110.68374176058235,
+        -12.432842082991064
+      ],
+      [
+        110.76712508286072,
+        -13.829133837858334
+      ],
+      [
+        108.61604228202378,
+        -13.942999071618736
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.272975432211,
+      "CRPIX2": 1002.3657870791628,
+      "CRVAL1": 109.6529176258,
+      "CRVAL2": -13.18990768355,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 0.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006974500359789279,
+      "CDELT2": 0.000698444773548018,
+      "PC1_1": 0.9985476655382821,
+      "PC1_2": 0.05387540856501074,
+      "PC2_1": 0.054215450626844464,
+      "PC2_2": -0.9985292609199433,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 2359",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 360.9236,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 14,
+      "total_exposure_s": 4200.0,
+      "date_obs": "2025-01-30T02:45:55.011",
+      "date_end": "2025-01-30T04:03:04.715"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "December 31, 1785",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)",
+      "notes": "A Wolf-Rayet bubble blown by the massive, rapidly-evolving star HD 56925."
+    },
+    "distance": {
+      "value_ly": 12000,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "ngc-2174-monkey-head-nebula",
+    "name": "NGC 2174 (Monkey Head Nebula)",
+    "category": "Emission Nebula",
+    "file": "images/ngc-2174-monkey-head-nebula.jpg",
+    "image_version": 1792869462,
+    "ra": 92.44219117243,
+    "dec": 20.55470497013,
+    "width_deg": 1.9225746573883717,
+    "height_deg": 1.2663518957591995,
+    "rotation_deg": -176.9688696567823,
+    "corners": [
+      [
+        93.49923857332874,
+        19.9700319941212
+      ],
+      [
+        91.45714661893462,
+        19.86878919333727
+      ],
+      [
+        91.37706853744366,
+        21.132917934324457
+      ],
+      [
+        93.43608275169115,
+        21.235003357366246
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 2525,
+      "NAXIS2": 1663,
+      "CRPIX1": 1263.0,
+      "CRPIX2": 832.0,
+      "CRVAL1": 92.44219117243,
+      "CRVAL2": 20.55470497013,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0007618395285324642,
+      "CDELT2": 0.0007620787314321073,
+      "PC1_1": -0.9985955244111245,
+      "PC1_2": -0.05298092700275268,
+      "PC2_1": -0.052861645935619345,
+      "PC2_2": 0.9986018457768727,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "MonkeyHeadNebula",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 361.02307,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 7,
+      "total_exposure_s": 2100.0,
+      "date_obs": "2025-01-30T00:41:45.425",
+      "date_end": "2025-01-30T01:17:06.613"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "January 1, 1784",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 6400,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "ngc-1499-california-nebula",
+    "name": "NGC 1499 (California Nebula)",
+    "category": "Emission Nebula",
+    "file": "images/ngc-1499-california-nebula.jpg",
+    "image_version": 1792869463,
+    "ra": 59.80976413228,
+    "dec": 36.49197156738,
+    "width_deg": 1.9882492020324214,
+    "height_deg": 1.2923428306296285,
+    "rotation_deg": -176.72081113553287,
+    "corners": [
+      [
+        61.00859177400786,
+        37.1879898396506
+      ],
+      [
+        58.518822619549944,
+        37.073298969254665
+      ],
+      [
+        58.63212059832619,
+        35.78417492921046
+      ],
+      [
+        61.08089874739649,
+        35.89695313706141
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1949,
+      "CRPIX1": 1500.2871912693854,
+      "CRPIX2": 975.0143595634693,
+      "CRVAL1": 59.80976413228,
+      "CRVAL2": 36.49197156738,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006631022639271603,
+      "CDELT2": 0.000663525555647946,
+      "PC1_1": -0.998328298126394,
+      "PC1_2": 0.05779800308019183,
+      "PC2_1": -0.05716294389300725,
+      "PC2_2": -0.9983648620847415,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "California Nebula",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 360.88615,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 107,
+      "total_exposure_s": 32100.0,
+      "date_obs": "2024-12-22T23:56:02.127",
+      "date_end": "2024-12-31T04:44:04.240"
+    },
+    "discovery": {
+      "discoverer_id": "e-e-barnard",
+      "date": "November 1884",
+      "location": "Nashville, Tennessee, USA",
+      "method": "Photographic",
+      "notes": "First recorded on a photographic plate; too faint to have been seen visually before then."
+    },
+    "distance": {
+      "value_ly": 1500,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "m97-owl-nebula",
+    "name": "M97 (Owl Nebula) & M108 (Surfboard Galaxy)",
+    "category": [
+      "Planetary Nebula",
+      "Galaxy"
+    ],
+    "category_labels": [
+      "M97 (Owl Nebula)",
+      "M108 (Surfboard Galaxy)"
+    ],
+    "file": "images/m97-owl-nebula.jpg",
+    "image_version": 1792869463,
+    "ra": 168.2685326194,
+    "dec": 55.35026856867,
+    "width_deg": 1.3357777326346834,
+    "height_deg": 1.0425990137186834,
+    "rotation_deg": 99.42787770819933,
+    "corners": [
+      [
+        167.56972779906417,
+        54.60413925553814
+      ],
+      [
+        167.15569482819012,
+        55.91892348945783
+      ],
+      [
+        168.9944634549675,
+        56.09254808616952
+      ],
+      [
+        169.3499463695491,
+        54.77208036378171
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2341,
+      "CRPIX1": 1500.213675213675,
+      "CRPIX2": 1170.7264957264956,
+      "CRVAL1": 168.2685326194,
+      "CRVAL2": 55.35026856867,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.00044559642551109254,
+      "CDELT2": 0.0004454476089347076,
+      "PC1_1": -0.1637507900044472,
+      "PC1_2": 0.9865017378458688,
+      "PC2_1": 0.9864897415844123,
+      "PC2_2": 0.16382304401005238,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Owl Nebula",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 361.20181,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 48,
+      "total_exposure_s": 8640.0,
+      "date_obs": "2025-03-18T01:16:27.263",
+      "date_end": "2025-03-18T04:26:41.485"
+    },
+    "distance": [
+      {
+        "value_ly": 2030,
+        "source": "Gaia DR3 parallax"
+      },
+      {
+        "value_ly": 45000000,
+        "source": "NED (Tully-Fisher)"
+      }
+    ],
+    "discovery": {
+      "discoverer_id": "pierre-mechain",
+      "date": "February 16, 1781 (M97); 1781 (M108)",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)",
+      "notes": "Mechain found the Owl Nebula and the edge-on galaxy M108 within weeks of each other while sweeping for comets; they share a field by chance, at vastly different distances."
+    }
+  },
+  {
+    "id": "m94-cat-s-eye-galaxy",
+    "name": "M94 (Cat's Eye Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m94-cat-s-eye-galaxy.jpg",
+    "image_version": 1792869465,
+    "ra": 192.7071954237,
+    "dec": 41.12133822154,
+    "width_deg": 1.9546669491665414,
+    "height_deg": 1.2780364773897488,
+    "rotation_deg": -29.34597350022986,
+    "corners": [
+      [
+        191.98044379694988,
+        42.15480957031243
+      ],
+      [
+        194.2554694959542,
+        41.18874733063652
+      ],
+      [
+        193.41153036686762,
+        40.08273525351497
+      ],
+      [
+        191.16277742821416,
+        41.03254538056077
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1961,
+      "CRPIX1": 1500.1460280373833,
+      "CRPIX2": 980.5782710280374,
+      "CRVAL1": 192.7071954237,
+      "CRVAL2": 41.12133822154,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006518971280220724,
+      "CDELT2": 0.0006521609196563688,
+      "PC1_1": 0.8716489795154683,
+      "PC1_2": -0.4901306524893569,
+      "PC2_1": -0.4898684367666003,
+      "PC2_2": -0.8717963722451747,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "M 94",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 361.05165,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 121,
+      "total_exposure_s": 36300.0,
+      "date_obs": "2025-02-22T06:08:40.473",
+      "date_end": "2025-02-26T07:31:15.339"
+    },
+    "discovery": {
+      "discoverer_id": "pierre-mechain",
+      "date": "March 22, 1781",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 16000000,
+      "source": "NED / SIMBAD consensus"
+    }
+  },
+  {
+    "id": "m86-southern-pinwheel-galaxy",
+    "name": "M86 (Southern Pinwheel Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m86-southern-pinwheel-galaxy.jpg",
+    "image_version": 1792879326,
+    "ra": 204.2600331661,
+    "dec": -29.85823604086,
+    "width_deg": 2.0809990432739016,
+    "height_deg": 1.359642649106786,
+    "rotation_deg": 100.7138159826818,
+    "corners": [
+      [
+        203.70656722657426,
+        -31.006675066993807
+      ],
+      [
+        203.27569562468454,
+        -28.959408235353642
+      ],
+      [
+        204.80083630763897,
+        -28.70723285497348
+      ],
+      [
+        205.26212686093302,
+        -30.749321873600266
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1964,
+      "CRPIX1": 1500.2749770852429,
+      "CRPIX2": 982.493125572869,
+      "CRVAL1": 204.2600331661,
+      "CRVAL2": -29.85823604086,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 0.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006926395324679473,
+      "CDELT2": 0.0006941648179209118,
+      "PC1_1": -0.18627482045443244,
+      "PC1_2": 0.9824976800301712,
+      "PC2_1": 0.9823669836032768,
+      "PC2_2": 0.18696285600674678,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Southern Pinwheel Galaxy",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 360.68116,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 18,
+      "total_exposure_s": 3240.0,
+      "date_obs": "2025-03-23T05:57:43.193",
+      "date_end": "2025-03-23T06:58:20.045"
+    },
+    "discovery": {
+      "discoverer_id": "nicolas-louis-de-lacaille",
+      "date": "1752",
+      "location": "Cape of Good Hope, South Africa",
+      "method": "Visual (telescopic)",
+      "notes": "Catalogued by Lacaille during his survey of the southern sky; added to the Messier Catalog by Charles Messier in 1781."
+    },
+    "distance": {
+      "value_ly": 15000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "m81-bodes-galaxy",
+    "name": "M81 (Bodes Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m81-bodes-galaxy.jpg",
+    "image_version": 1792869465,
+    "ra": 149.8256018932,
+    "dec": 69.1430753169,
+    "width_deg": 1.3293722135183392,
+    "height_deg": 0.895291032597149,
+    "rotation_deg": -30.732688132249756,
+    "corners": [
+      [
+        148.83050029926093,
+        69.86475415189106
+      ],
+      [
+        152.07661103467774,
+        69.17348712220145
+      ],
+      [
+        150.7569641067782,
+        68.41600398452682
+      ],
+      [
+        147.58405330442477,
+        69.08333766477045
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2021,
+      "CRPIX1": 1500.4296763105128,
+      "CRPIX2": 1011.0283586364939,
+      "CRVAL1": 149.8256018932,
+      "CRVAL2": 69.1430753169,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.00044329077713409876,
+      "CDELT2": 0.0004432667000839868,
+      "PC1_1": 0.8595889162166095,
+      "PC1_2": -0.5109861985587818,
+      "PC2_1": -0.5110778335421478,
+      "PC2_2": -0.8595344368097562,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ZWO AM3",
+      "focal_length_mm": 361.10842,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 1.00858,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 120.0,
+      "num_frames": 33,
+      "total_exposure_s": 3960.0,
+      "date_obs": "2024-05-19T01:51:54.322",
+      "date_end": "2024-05-19T03:14:42.645"
+    },
+    "discovery": {
+      "discoverer_id": "johann-elert-bode",
+      "date": "December 31, 1774",
+      "location": "Berlin, Germany",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 12000000,
+      "source": "NED / SIMBAD consensus"
+    }
+  },
+  {
+    "id": "m74-phantom-galaxy",
+    "name": "M74 (Phantom Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m74-phantom-galaxy.jpg",
+    "image_version": 1792869466,
+    "ra": 24.17363836985,
+    "dec": 15.81399544691,
+    "width_deg": 2.0595291380289273,
+    "height_deg": 1.3715500154105977,
+    "rotation_deg": -114.44886447354914,
+    "corners": [
+      [
+        25.268658964325887,
+        16.464674764770518
+      ],
+      [
+        24.377929555942668,
+        14.592454363674184
+      ],
+      [
+        23.084989201323815,
+        15.157823188270605
+      ],
+      [
+        23.9661784401116,
+        17.035304692462823
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1998,
+      "CRPIX1": 1500.277059475434,
+      "CRPIX2": 999.0764684152198,
+      "CRVAL1": 24.17363836985,
+      "CRVAL2": 15.81399544691,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.00068687804616977,
+      "CDELT2": 0.0006869327252111821,
+      "PC1_1": -0.4138711590817172,
+      "PC1_2": -0.9103354676603324,
+      "PC2_1": -0.9102370153185011,
+      "PC2_2": 0.41408764282947,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "M 74",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 361.10375,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 94,
+      "total_exposure_s": 28200.0,
+      "date_obs": "2024-10-10T03:46:07.668",
+      "date_end": "2024-10-11T09:22:06.962"
+    },
+    "discovery": {
+      "discoverer_id": "pierre-mechain",
+      "date": "1780",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 32000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "m64-black-eye-galaxy",
+    "name": "M64 (Black Eye Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m64-black-eye-galaxy.jpg",
+    "image_version": 1792869467,
+    "ra": 194.2276592581,
+    "dec": 21.65333116278,
+    "width_deg": 2.0514526655720777,
+    "height_deg": 1.3683546810967597,
+    "rotation_deg": -79.73555963177341,
+    "corners": [
+      [
+        194.75935297725007,
+        22.78319691487328
+      ],
+      [
+        195.14286745884735,
+        20.762892003067943
+      ],
+      [
+        193.70362467447165,
+        20.52119282230342
+      ],
+      [
+        193.3005045518089,
+        22.53808614054466
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2001,
+      "CRPIX1": 1500.1390949554896,
+      "CRPIX2": 1000.5100148367951,
+      "CRVAL1": 194.2276592581,
+      "CRVAL2": 21.65333116278,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006843563991002621,
+      "CDELT2": 0.000684130574692924,
+      "PC1_1": 0.17814235130127348,
+      "PC1_2": -0.9840047269565597,
+      "PC2_1": -0.9840488573179149,
+      "PC2_2": -0.17789841598874911,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "M 64",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 361.03497,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 57,
+      "total_exposure_s": 10260.0,
+      "date_obs": "2025-03-25T06:20:04.038",
+      "date_end": "2025-03-25T09:46:04.408"
+    },
+    "discovery": {
+      "discoverer_id": "edward-pigott",
+      "date": "March 23, 1779",
+      "location": "York, England",
+      "method": "Visual (telescopic)",
+      "notes": "Independently found by Johann Elert Bode a few weeks later the same year."
+    },
+    "distance": {
+      "value_ly": 17000000,
+      "source": "NED / SIMBAD consensus"
+    }
+  },
+  {
+    "id": "m63-sunflower-galaxy",
+    "name": "M63 (Sunflower Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m63-sunflower-galaxy.jpg",
+    "image_version": 1792869468,
+    "ra": 198.9656632794,
+    "dec": 42.03041683315,
+    "width_deg": 2.0728834759506216,
+    "height_deg": 1.3860570310836167,
+    "rotation_deg": -31.340095834811653,
+    "corners": [
+      [
+        198.24640328300612,
+        43.158988124196945
+      ],
+      [
+        200.64400875774928,
+        42.0708207167072
+      ],
+      [
+        199.66010976483653,
+        40.896965418322395
+      ],
+      [
+        197.29044993648483,
+        41.965061122871475
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2006,
+      "CRPIX1": 1500.1377157546824,
+      "CRPIX2": 1003.2592728608153,
+      "CRVAL1": 198.9656632794,
+      "CRVAL2": 42.03041683315,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006913217971438487,
+      "CDELT2": 0.0006914428706192261,
+      "PC1_1": 0.8540898051300279,
+      "PC1_2": -0.5201255663519637,
+      "PC2_1": -0.520022665751171,
+      "PC2_2": -0.8541524612767009,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ZWO AM3",
+      "focal_length_mm": 360.9938,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 1.00858,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 120.0,
+      "num_frames": 84,
+      "total_exposure_s": 10080.0,
+      "date_obs": "2024-05-25T03:10:40.940",
+      "date_end": "2024-05-30T04:42:00.919"
+    },
+    "discovery": {
+      "discoverer_id": "pierre-mechain",
+      "date": "June 14, 1779",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 29000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "m33-triangulum-galaxy",
+    "name": "M33 (Triangulum Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m33-triangulum-galaxy.jpg",
+    "image_version": 1792869469,
+    "ra": 23.46829342738,
+    "dec": 30.68707957623,
+    "width_deg": 1.3897148441253018,
+    "height_deg": 0.9751667940473359,
+    "rotation_deg": -86.70423655955238,
+    "corners": [
+      [
+        23.991900732958126,
+        31.407756651437875
+      ],
+      [
+        24.07669496330101,
+        30.019954995951323
+      ],
+      [
+        22.9525922984168,
+        29.964257993242885
+      ],
+      [
+        22.851581387623742,
+        31.35125396964983
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2105,
+      "CRPIX1": 1500.410733844469,
+      "CRPIX2": 1053.1215772179628,
+      "CRVAL1": 23.46829342738,
+      "CRVAL2": 30.68707957623,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.00046352639691490147,
+      "CDELT2": 0.0004634334459967737,
+      "PC1_1": 0.0574785304292401,
+      "PC1_2": -0.9983467426398981,
+      "PC2_1": -0.9983434899159246,
+      "PC2_2": -0.05753499928297751,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "M 33",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "Apertura FPL-53",
+      "focal_length_mm": 361.17078,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 116,
+      "total_exposure_s": 34800.0,
+      "date_obs": "2024-08-11T06:32:56.039",
+      "date_end": "2024-08-15T08:49:40.021"
+    },
+    "discovery": {
+      "discoverer_id": "giovanni-battista-hodierna",
+      "date": "before 1654",
+      "location": "Sicily, Italy",
+      "method": "Visual (telescopic)",
+      "notes": "First recorded by Hodierna; independently catalogued by Charles Messier in 1764."
+    },
+    "distance": {
+      "value_ly": 2730000,
+      "source": "SIMBAD / NED consensus"
+    }
+  },
+  {
+    "id": "m31-andromeda-galaxy",
+    "name": "M31 (Andromeda Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m31-andromeda-galaxy.jpg",
+    "image_version": 1792869469,
+    "ra": 10.73353125566,
+    "dec": 41.33230660625,
+    "width_deg": 1.9922316805578837,
+    "height_deg": 1.3045470913326989,
+    "rotation_deg": -99.92811510005424,
+    "corners": [
+      [
+        10.095895671633517,
+        42.424082343255904
+      ],
+      [
+        9.663463324777338,
+        40.45839212598869
+      ],
+      [
+        11.350330026100726,
+        40.236809377434575
+      ],
+      [
+        11.83275048485687,
+        42.195722431114085
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1964,
+      "CRPIX1": 1500.286478227655,
+      "CRPIX2": 982.3338426279604,
+      "CRVAL1": 10.73353125566,
+      "CRVAL2": 41.33230660625,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006646902450215829,
+      "CDELT2": 0.0006644156531294829,
+      "PC1_1": -0.1723394351887938,
+      "PC1_2": 0.9850376231793422,
+      "PC2_1": -0.9850144805675944,
+      "PC2_2": -0.17247165875050888,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "M 31",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "Apertura FPL-53",
+      "focal_length_mm": 361.23897,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 131,
+      "total_exposure_s": 23580.0,
+      "date_obs": "2024-07-27T05:15:47.816",
+      "date_end": "2024-07-28T09:10:18.472"
+    },
+    "discovery": {
+      "discoverer_id": "al-sufi",
+      "date": "964 CE",
+      "location": "Isfahan, Persia",
+      "method": "Naked eye",
+      "notes": "Described in al-Sufi's Book of Fixed Stars as a \"little cloud\"; first observed telescopically by Simon Marius in 1612."
+    },
+    "distance": {
+      "value_ly": 2500000,
+      "source": "NED / SIMBAD consensus"
+    }
+  },
+  {
+    "id": "m16-eagle-nebula",
+    "name": "M16 (Eagle Nebula)",
+    "category": "Emission Nebula",
+    "file": "images/m16-eagle-nebula.jpg",
+    "image_version": 1792879326,
+    "ra": 274.7203023795,
+    "dec": -13.77861587123,
+    "width_deg": 0.6054764517001205,
+    "height_deg": 0.48736285601018137,
+    "rotation_deg": -127.37858873588665,
+    "corners": [
+      [
+        275.1086407115695,
+        -13.685739330767266
+      ],
+      [
+        274.7303473565653,
+        -14.16718118757732
+      ],
+      [
+        274.3315617213944,
+        -13.870828015233613
+      ],
+      [
+        274.71019638106077,
+        -13.389995223932463
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2414,
+      "CRPIX1": 1500.46992481203,
+      "CRPIX2": 1207.2368421052631,
+      "CRVAL1": 274.7203023795,
+      "CRVAL2": -13.77861587123,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 0.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0002019028994759222,
+      "CDELT2": 0.00020197145833076744,
+      "PC1_1": -0.6070596441321887,
+      "PC1_2": -0.7946562706391365,
+      "PC2_1": -0.7943465681474499,
+      "PC2_2": 0.6074648382189448,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.53927,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 203,
+      "total_exposure_s": 60900.0,
+      "date_obs": "2025-04-24T07:30:54.756",
+      "date_end": "2025-07-02T04:57:55.375"
+    },
+    "discovery": {
+      "discoverer_id": "philippe-loys-de-cheseaux",
+      "date": "1745-1746",
+      "location": "Lausanne, Switzerland",
+      "method": "Visual (telescopic)",
+      "notes": "Independently catalogued by Charles Messier in 1764; home of the 'Pillars of Creation'."
+    },
+    "distance": {
+      "value_ly": 7000,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "m106-and-friends",
+    "name": "M106 (and friends)",
+    "category": "Galaxy",
+    "file": "images/m106-and-friends.jpg",
+    "image_version": 1792869470,
+    "ra": 184.3147416504,
+    "dec": 47.37110611018,
+    "width_deg": 1.2508031142155054,
+    "height_deg": 0.8744268663292489,
+    "rotation_deg": 99.68766741946652,
+    "corners": [
+      [
+        183.84012136556154,
+        46.68028355232638
+      ],
+      [
+        183.51490423080807,
+        47.911489277141015
+      ],
+      [
+        184.80234340154615,
+        48.060191188144195
+      ],
+      [
+        185.09866654392522,
+        46.825545074169824
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2097,
+      "CRPIX1": 1500.228310502283,
+      "CRPIX2": 1048.6301369863013,
+      "CRVAL1": 184.3147416504,
+      "CRVAL2": 47.37110611018,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.00041723275392219303,
+      "CDELT2": 0.000417090692378615,
+      "PC1_1": -0.1682245161127176,
+      "PC1_2": 0.9857487064047521,
+      "PC2_1": 0.985766686714742,
+      "PC2_2": 0.16811912253946507,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "M 106",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 361.11134,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 57,
+      "total_exposure_s": 10260.0,
+      "date_obs": "2025-03-23T02:05:50.172",
+      "date_end": "2025-03-23T05:52:27.842"
+    },
+    "discovery": {
+      "discoverer_id": "pierre-mechain",
+      "date": "1781",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 23500000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "m104-sombrero-galaxy",
+    "name": "M104 (Sombrero Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m104-sombrero-galaxy.jpg",
+    "image_version": 1792879327,
+    "ra": 189.994335693,
+    "dec": -11.62478301242,
+    "width_deg": 0.9645095363202421,
+    "height_deg": 1.5613899565018574,
+    "rotation_deg": -179.45922822349434,
+    "corners": [
+      [
+        190.49541262124436,
+        -12.40029701422838
+      ],
+      [
+        189.50789107188447,
+        -12.409425679424242
+      ],
+      [
+        189.49578212645244,
+        -10.848080795652887
+      ],
+      [
+        190.47778337593505,
+        -10.839002511042802
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 1854,
+      "NAXIS2": 3000,
+      "CRPIX1": 927.2560975609756,
+      "CRPIX2": 1500.1829268292684,
+      "CRVAL1": 189.994335693,
+      "CRVAL2": -11.62478301242,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 0.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0005205725230684754,
+      "CDELT2": 0.0005206880628962563,
+      "PC1_1": -0.9999564751179428,
+      "PC1_2": -0.009329944785419894,
+      "PC2_1": -0.009436023152941883,
+      "PC2_2": 0.999955479742502,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Sombrero Galaxy",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 360.9407,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 24,
+      "total_exposure_s": 4320.0,
+      "date_obs": "2025-03-25T04:35:54.007",
+      "date_end": "2025-03-25T06:06:16.609"
+    },
+    "discovery": {
+      "discoverer_id": "pierre-mechain",
+      "date": "May 11, 1781",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 29000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "m101-pinwheel",
+    "name": "M101 (Pinwheel)",
+    "category": "Galaxy",
+    "file": "images/m101-pinwheel.jpg",
+    "image_version": 1792869471,
+    "ra": 210.8001242728,
+    "dec": 54.35323527481,
+    "width_deg": 1.7118214069698285,
+    "height_deg": 1.307021449536586,
+    "rotation_deg": 164.51486310275672,
+    "corners": [
+      [
+        211.89314820460228,
+        53.48996867756357
+      ],
+      [
+        209.10212411213968,
+        53.94002332566292
+      ],
+      [
+        209.66020371704087,
+        55.20638989438194
+      ],
+      [
+        212.531339461742,
+        54.742331950736705
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2290,
+      "CRPIX1": 1500.3286590709904,
+      "CRPIX2": 1145.3768624014024,
+      "CRVAL1": 210.8001242728,
+      "CRVAL2": 54.35323527481,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0005708895660225579,
+      "CDELT2": 0.00057107700630265,
+      "PC1_1": -0.9636785437602668,
+      "PC1_2": 0.2670649065229116,
+      "PC2_1": 0.266894888253499,
+      "PC2_2": 0.9637256448928566,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "M 101",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 363.10778,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 107,
+      "total_exposure_s": 32100.0,
+      "date_obs": "2025-04-22T03:23:55.711",
+      "date_end": "2025-04-27T07:12:36.644"
+    },
+    "discovery": {
+      "discoverer_id": "pierre-mechain",
+      "date": "March 27, 1781",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 21000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "m100-mirror-galaxy",
+    "name": "M100 (Mirror Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m100-mirror-galaxy.jpg",
+    "image_version": 1792869471,
+    "ra": 185.7552066363,
+    "dec": 16.04645608124,
+    "width_deg": 1.4124626192082734,
+    "height_deg": 0.8612572140660044,
+    "rotation_deg": 100.25857628924346,
+    "corners": [
+      [
+        185.44625229496276,
+        15.27466371636762
+      ],
+      [
+        185.18152541211694,
+        16.664008462237923
+      ],
+      [
+        186.06643351185076,
+        16.817871764825618
+      ],
+      [
+        186.32520828366535,
+        15.4274567144545
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1829,
+      "CRPIX1": 1500.4042037186741,
+      "CRPIX2": 915.1172190784155,
+      "CRVAL1": 185.7552066363,
+      "CRVAL2": 16.04645608124,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0004711927121044411,
+      "CDELT2": 0.0004710142525860401,
+      "PC1_1": -0.17802368082953457,
+      "PC1_2": 0.9840262034437416,
+      "PC2_1": 0.9840156643943033,
+      "PC2_2": 0.17808192560346423,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": null,
+      "telescope": null,
+      "focal_length_mm": null,
+      "pixel_size_um": null,
+      "gain_e_per_adu": null,
+      "bayer_pattern": null,
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 71,
+      "total_exposure_s": 12780.0,
+      "date_obs": null,
+      "date_end": null
+    },
+    "discovery": {
+      "discoverer_id": "pierre-mechain",
+      "date": "1781",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 55000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "ldn-673",
+    "name": "LDN 673",
+    "category": "Dark Nebula",
+    "file": "images/ldn-673.jpg",
+    "image_version": 1792869471,
+    "ra": 290.218207281,
+    "dec": 11.22506096714,
+    "width_deg": 2.08133912901987,
+    "height_deg": 1.3900460243827388,
+    "rotation_deg": 53.751414719873665,
+    "corners": [
+      [
+        289.02112104543284,
+        10.794323060070816
+      ],
+      [
+        290.2743196953148,
+        12.475235120738214
+      ],
+      [
+        291.4190918518244,
+        11.651226606131326
+      ],
+      [
+        290.162817633853,
+        9.97509474741191
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.2729257641922,
+      "CRPIX2": 1002.4563318777293,
+      "CRVAL1": 290.218207281,
+      "CRVAL2": 11.22506096714,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006942457082448997,
+      "CDELT2": 0.0006940233255710344,
+      "PC1_1": 0.5911983933828564,
+      "PC1_2": 0.8065261679955148,
+      "PC2_1": 0.8065929925730925,
+      "PC2_2": -0.5911072189814494,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "LDN 673",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 363.16454,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 131,
+      "total_exposure_s": 39300.0,
+      "date_obs": "2025-07-30T02:41:09.205",
+      "date_end": "2025-08-03T06:40:32.408"
+    },
+    "discovery": {
+      "discoverer_id": "beverly-lynds",
+      "date": "1962",
+      "location": "Harvard / Palomar Observatory, USA",
+      "method": "Photographic (Palomar Observatory Sky Survey)"
+    },
+    "distance": {
+      "value_ly": 600,
+      "source": "Literature estimate (Gaia dust mapping)"
+    }
+  },
+  {
+    "id": "leo-triplet",
+    "name": "Leo Triplet",
+    "category": "Galaxy",
+    "file": "images/leo-triplet.jpg",
+    "image_version": 1792869472,
+    "ra": 169.4422906295,
+    "dec": 13.17724829061,
+    "width_deg": 1.9127747579703085,
+    "height_deg": 1.3373580665811804,
+    "rotation_deg": -177.10238610156736,
+    "corners": [
+      [
+        170.4555619046253,
+        12.555867244310035
+      ],
+      [
+        168.49877454447505,
+        12.45943615474345
+      ],
+      [
+        168.4236034009149,
+        13.794789107526643
+      ],
+      [
+        170.39107196494692,
+        13.891751079829012
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2097,
+      "CRPIX1": 1500.2985668789809,
+      "CRPIX2": 1048.8654458598726,
+      "CRVAL1": 169.4422906295,
+      "CRVAL2": 13.17724829061,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006379171136120965,
+      "CDELT2": 0.0006381601735634946,
+      "PC1_1": -0.9987054490033227,
+      "PC1_2": -0.05086674877630204,
+      "PC2_1": -0.05053128396646058,
+      "PC2_2": 0.9987224786399377,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 360.9396,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 23,
+      "total_exposure_s": 6900.0,
+      "date_obs": "2025-01-30T06:59:16.760",
+      "date_end": "2025-01-30T11:23:02.848"
+    },
+    "discovery": {
+      "discoverer_id": "pierre-mechain",
+      "date": "March 1, 1780",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)",
+      "notes": "Mechain found M65 and M66 together; the third member, NGC 3628, was added by William Herschel in 1784."
+    },
+    "distance": {
+      "value_ly": 35000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "ldn-1235-shark-head",
+    "name": "LDN 1235 (Shark Head)",
+    "category": "Dark Nebula",
+    "file": "images/ldn-1235-shark-head.jpg",
+    "image_version": 1792869472,
+    "ra": 332.1041844225,
+    "dec": 73.07468459069,
+    "width_deg": 2.0789969784483135,
+    "height_deg": 1.3904127237646309,
+    "rotation_deg": -126.77590126453234,
+    "corners": [
+      [
+        336.24331366038956,
+        73.44898145640126
+      ],
+      [
+        331.89094474262026,
+        71.82433894640116
+      ],
+      [
+        328.15620159369996,
+        72.62058892035755
+      ],
+      [
+        332.34949251896336,
+        74.32456032092968
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.2729257641922,
+      "CRPIX2": 1002.4563318777293,
+      "CRVAL1": 332.1041844225,
+      "CRVAL2": 73.07468459069,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006932245874416487,
+      "CDELT2": 0.0006944458664111345,
+      "PC1_1": -0.5988012804605584,
+      "PC1_2": -0.8008976379780351,
+      "PC2_1": -0.7997275638560596,
+      "PC2_2": 0.6003630764869307,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "LDN 1235",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 363.13534,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "wow",
+      "exptime_s": 300.0,
+      "num_frames": 115,
+      "total_exposure_s": 34500.0,
+      "date_obs": "2025-08-19T01:51:56.725",
+      "date_end": "2025-08-23T08:46:03.315"
+    },
+    "discovery": {
+      "discoverer_id": "beverly-lynds",
+      "date": "1962",
+      "location": "Harvard / Palomar Observatory, USA",
+      "method": "Photographic (Palomar Observatory Sky Survey)"
+    },
+    "distance": {
+      "value_ly": 1200,
+      "source": "Literature estimate (Cepheus flare region)"
+    }
+  },
+  {
+    "id": "ic-1396-elephant-s-trunk",
+    "name": "IC 1396 (Elephant's Trunk)",
+    "category": "Emission Nebula",
+    "file": "images/ic-1396-elephant-s-trunk.jpg",
+    "image_version": 1792869472,
+    "ra": 324.0836850406,
+    "dec": 57.84744045693,
+    "width_deg": 1.844835805369502,
+    "height_deg": 1.2488098819385818,
+    "rotation_deg": 82.10202304615417,
+    "corners": [
+      [
+        322.7152847916066,
+        57.012306110274224
+      ],
+      [
+        323.13369134448203,
+        58.84372566264946
+      ],
+      [
+        325.5173024266896,
+        58.66732002091769
+      ],
+      [
+        324.98318232666793,
+        56.844610094726015
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2030,
+      "CRPIX1": 1500.309405940594,
+      "CRPIX2": 1015.1608910891089,
+      "CRVAL1": 324.0836850406,
+      "CRVAL2": 57.84744045693,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.000615554909645301,
+      "CDELT2": 0.0006152697431201763,
+      "PC1_1": 0.1373392783615133,
+      "PC1_2": 0.9905240646340395,
+      "PC2_1": 0.9904664543856846,
+      "PC2_2": -0.13775413872784617,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Elephant's Trunk Nebula",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 361.21263,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.362,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 80,
+      "total_exposure_s": 24000.0,
+      "date_obs": "2024-08-22T01:33:43.526",
+      "date_end": "2024-08-23T05:01:50.644"
+    },
+    "discovery": {
+      "discoverer_id": "max-wolf",
+      "date": "1893",
+      "location": "Heidelberg, Germany",
+      "method": "Photographic",
+      "notes": "The dark 'trunk' globule (vdB 142) sits within the much larger IC 1396 emission region and star cluster."
+    },
+    "distance": {
+      "value_ly": 2400,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "c-4-iris-nebula",
+    "name": "C 4 (Iris Nebula)",
+    "category": "Reflection Nebula",
+    "file": "images/c-4-iris-nebula.jpg",
+    "image_version": 1792869473,
+    "ra": 315.3543563126,
+    "dec": 68.12885358239,
+    "width_deg": 2.010905702596352,
+    "height_deg": 1.2985666904879563,
+    "rotation_deg": -146.7764693276528,
+    "corners": [
+      [
+        318.5673539611516,
+        68.10589079190251
+      ],
+      [
+        314.1123640694147,
+        67.03038309316109
+      ],
+      [
+        312.142933430075,
+        68.08937746001668
+      ],
+      [
+        316.71955823355137,
+        69.21697909225486
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1943,
+      "CRPIX1": 1500.2841985600608,
+      "CRPIX2": 971.9590754073513,
+      "CRVAL1": 315.3543563126,
+      "CRVAL2": 68.12885358239,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006705471454494112,
+      "CDELT2": 0.0006688969419946317,
+      "PC1_1": -0.8366518630865184,
+      "PC1_2": -0.5477350271745067,
+      "PC2_1": -0.5493324048817367,
+      "PC2_2": 0.8356039187000308,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ZWO AM3",
+      "focal_length_mm": 361.00846,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 235,
+      "total_exposure_s": 42300.0,
+      "date_obs": "2024-07-01T05:25:42.681",
+      "date_end": "2024-07-03T08:39:29.070"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "October 18, 1794",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 1300,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "c-33-5-veil-nebula-mosaic",
+    "name": "C 33.5 Veil Nebula Mosaic",
+    "category": "Supernova Remnant",
+    "file": "images/c-33-5-veil-nebula-mosaic.jpg",
+    "image_version": 1792873736,
+    "ra": 312.7656911569,
+    "dec": 30.89690303303,
+    "width_deg": 3.021186969141668,
+    "height_deg": 2.5063242352535875,
+    "rotation_deg": 65.03114945367942,
+    "corners": [
+      [
+        310.71709872111177,
+        30.040705864373905
+      ],
+      [
+        312.17343301464064,
+        32.79454308261275
+      ],
+      [
+        314.8514574329592,
+        31.72056532803627
+      ],
+      [
+        313.3358011476513,
+        28.996994188517377
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2489,
+      "CRPIX1": 1500.188679245283,
+      "CRPIX2": 1244.7169811320755,
+      "CRVAL1": 312.7656911569,
+      "CRVAL2": 30.89690303303,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.001007790477091539,
+      "CDELT2": 0.00100795849495766,
+      "PC1_1": 0.4221599709231385,
+      "PC1_2": 0.9065213505208661,
+      "PC2_1": 0.9064603704586661,
+      "PC2_2": -0.42229089119697805,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "September 5, 1784",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)",
+      "notes": "The visible remnant of a supernova that exploded roughly 10,000-20,000 years ago."
+    },
+    "distance": {
+      "value_ly": 2400,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "m45-the-pleiades",
+    "name": "M45 The Pleiades",
+    "category": "Open Cluster",
+    "file": "images/m45-the-pleiades.jpg",
+    "image_version": 1792874862,
+    "ra": 56.74787051465,
+    "dec": 24.17589577269,
+    "width_deg": 2.091018679492902,
+    "height_deg": 1.396731715807679,
+    "rotation_deg": -114.31036297555194,
+    "corners": [
+      [
+        57.92340150001276,
+        24.836568843706182
+      ],
+      [
+        56.97149948714599,
+        22.935274558071566
+      ],
+      [
+        55.58432757891839,
+        23.506040118972315
+      ],
+      [
+        56.519646027664486,
+        25.415920733950372
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.2729257641922,
+      "CRPIX2": 1002.4563318777293,
+      "CRVAL1": 56.74787051465,
+      "CRVAL2": 24.17589577269,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006974603515611637,
+      "CDELT2": 0.0006973780531135944,
+      "PC1_1": -0.41162459997850803,
+      "PC1_2": -0.9113534927197751,
+      "PC2_1": -0.9113155071000635,
+      "PC2_2": 0.4117086913327847,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Pleiades",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 361.22099,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 92,
+      "total_exposure_s": 27600.0,
+      "date_obs": "2024-09-08T07:25:06.826",
+      "date_end": "2024-10-08T09:57:47.604"
+    },
+    "discovery": {
+      "discoverer_id": "galileo-galilei",
+      "date": "1610",
+      "location": "Padua, Italy",
+      "method": "Visual (telescopic)",
+      "notes": "Known since antiquity to the naked eye; Galileo was the first to resolve dozens of additional stars with a telescope."
+    },
+    "distance": {
+      "value_ly": 444,
+      "source": "Gaia DR3 parallax"
+    }
+  },
+  {
+    "id": "sh2-112",
+    "name": "SH2 112",
+    "category": "Emission Nebula",
+    "file": "images/sh2-112.jpg",
+    "image_version": 1792875201,
+    "ra": 308.4573277761,
+    "dec": 45.63486741155,
+    "width_deg": 2.0794916017265876,
+    "height_deg": 1.3888788415006779,
+    "rotation_deg": 54.04102211283256,
+    "corners": [
+      [
+        306.79362792251936,
+        45.18902011802517
+      ],
+      [
+        308.5285252308985,
+        46.884397493888166
+      ],
+      [
+        310.14769493498676,
+        46.05643674642014
+      ],
+      [
+        308.3899334509263,
+        44.38555675861613
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.136462882096,
+      "CRPIX2": 1002.3198689956333,
+      "CRVAL1": 308.4573277761,
+      "CRVAL2": 45.63486741155,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006935446347257815,
+      "CDELT2": 0.0006935249327244135,
+      "PC1_1": 0.5871867718672091,
+      "PC1_2": 0.809451477819496,
+      "PC2_1": 0.8094342936874506,
+      "PC2_2": -0.5872104598886997,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Sh2 112",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 363.21146,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 88,
+      "total_exposure_s": 26400.0,
+      "date_obs": "2025-06-22T02:57:24.040",
+      "date_end": "2025-06-24T07:41:31.529"
+    },
+    "discovery": {
+      "discoverer_id": "stewart-sharpless",
+      "date": "1959",
+      "location": "Palomar Observatory, California, USA",
+      "method": "Photographic (Palomar Observatory Sky Survey)"
+    },
+    "distance": {
+      "value_ly": 8000,
+      "source": "Literature estimate (Sharpless catalog)"
+    }
+  },
+  {
+    "id": "ngc6888-crescent-nebula",
+    "name": "NGC6888 (Crescent Nebula)",
+    "category": "Emission Nebula",
+    "file": "images/ngc6888-crescent-nebula.jpg",
+    "image_version": 1792878186,
+    "ra": 302.853241148,
+    "dec": 38.4962124193,
+    "width_deg": 1.935306759627571,
+    "height_deg": 1.2451782476916864,
+    "rotation_deg": -145.51950575469013,
+    "corners": [
+      [
+        303.6359210877543,
+        39.402667577322305
+      ],
+      [
+        301.59089127507195,
+        38.30279791504019
+      ],
+      [
+        302.493154469303,
+        37.28192561412876
+      ],
+      [
+        304.5225475831262,
+        38.36625716172292
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1929,
+      "CRPIX1": 1570.4049044457547,
+      "CRPIX2": 631.0635572700472,
+      "CRVAL1": 302.853241148,
+      "CRVAL2": 38.4962124193,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.000645319492467161,
+      "CDELT2": 0.0006460684519988243,
+      "PC1_1": -0.8244496594070976,
+      "PC1_2": 0.5659352958629817,
+      "PC2_1": -0.5655590058090143,
+      "PC2_2": -0.8247078336891916,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ZWO AM3",
+      "focal_length_mm": 361.28836,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 120.0,
+      "num_frames": 181,
+      "total_exposure_s": 21720.0,
+      "date_obs": "2024-06-07T02:05:50.368",
+      "date_end": "2024-06-22T09:16:47.385"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "1792",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 5000,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "m27-dumbell-nebula",
+    "name": "M27 Dumbell Nebula",
+    "category": "Planetary Nebula",
+    "file": "images/m27-dumbell-nebula.jpg",
+    "image_version": 1792878188,
+    "ra": 300.285717701,
+    "dec": 22.698810867,
+    "width_deg": 1.726303363503904,
+    "height_deg": 1.0769124553687568,
+    "rotation_deg": -145.96252743577054,
+    "corners": [
+      [
+        300.3527747224001,
+        23.656187141088576
+      ],
+      [
+        298.80185934353904,
+        22.683034604028254
+      ],
+      [
+        299.46036090612967,
+        21.795300046751585
+      ],
+      [
+        301.0060498847362,
+        22.76207747625208
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1872,
+      "CRPIX1": 1020.2423983796297,
+      "CRPIX2": 1319.5330907407408,
+      "CRVAL1": 300.285717701,
+      "CRVAL2": 22.698810867,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0005756847051469611,
+      "CDELT2": 0.0005757069789870374,
+      "PC1_1": -0.828712360542946,
+      "PC1_2": 0.5596747479414614,
+      "PC2_1": -0.5597408171335155,
+      "PC2_2": -0.8286677365716034,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ZWO AM3",
+      "focal_length_mm": 361.25624,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 180.0,
+      "num_frames": 92,
+      "total_exposure_s": 16560.0,
+      "date_obs": "2024-07-07T04:12:05.275",
+      "date_end": "2024-07-08T08:38:39.679"
+    },
+    "discovery": {
+      "discoverer_id": "charles-messier",
+      "date": "July 12, 1764",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)",
+      "notes": "The first planetary nebula ever catalogued."
+    },
+    "distance": {
+      "value_ly": 1360,
+      "source": "Gaia DR3 parallax"
+    }
+  },
+  {
+    "id": "ldn-1251-rotten-fish-nebula",
+    "name": "LDN 1251 (Rotten Fish Nebula)",
+    "category": "Dark Nebula",
+    "file": "images/ldn-1251-rotten-fish-nebula.jpg",
+    "image_version": 1792878190,
+    "ra": 336.327113889,
+    "dec": 74.7600882968,
+    "width_deg": 2.0187484002672056,
+    "height_deg": 1.3545469232229372,
+    "rotation_deg": 56.65839234361435,
+    "corners": [
+      [
+        337.6277486766198,
+        73.9879047180161
+      ],
+      [
+        342.2424928842451,
+        75.60514127454562
+      ],
+      [
+        337.76123641657364,
+        76.41900791750771
+      ],
+      [
+        333.3934090816155,
+        74.71754126989534
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2012,
+      "CRPIX1": 661.2342153375845,
+      "CRPIX2": 1072.6533333167665,
+      "CRVAL1": 336.327113889,
+      "CRVAL2": 74.7600882968,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.000673564269428938,
+      "CDELT2": 0.0006734965858996056,
+      "PC1_1": 0.5494326530732083,
+      "PC1_2": -0.8355380061594658,
+      "PC2_1": 0.8351929781066489,
+      "PC2_2": 0.5499569886103336,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "LDN 1251",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.72654,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 365,
+      "total_exposure_s": 109500.0,
+      "date_obs": "2025-08-25T01:32:22.838",
+      "date_end": "2025-09-03T08:51:27.667"
+    },
+    "discovery": {
+      "discoverer_id": "beverly-lynds",
+      "date": "1962",
+      "location": "Harvard / Palomar Observatory, USA",
+      "method": "Photographic (Palomar Observatory Sky Survey)"
+    },
+    "distance": {
+      "value_ly": 1000,
+      "source": "Literature estimate (local dark cloud distance)"
+    }
+  },
+  {
+    "id": "ic-342-hiddn-galaxy",
+    "name": "IC 342 (Hiddn Galaxy)",
+    "category": "Galaxy",
+    "file": "images/ic-342-hiddn-galaxy.jpg",
+    "image_version": 1792878191,
+    "ra": 55.3688678972,
+    "dec": 67.8618211098,
+    "width_deg": 2.002553884335679,
+    "height_deg": 1.2276271923155644,
+    "rotation_deg": 3.217210342170007,
+    "corners": [
+      [
+        54.145057341584696,
+        67.3995445873679
+      ],
+      [
+        59.3620817094079,
+        67.46733784137918
+      ],
+      [
+        59.389664690526445,
+        68.69473243415975
+      ],
+      [
+        53.8886796733869,
+        68.62360581866832
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1839,
+      "CRPIX1": 742.6654082725199,
+      "CRPIX2": 645.4387369042189,
+      "CRVAL1": 55.3688678972,
+      "CRVAL2": 67.8618211098,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.000667912389718246,
+      "CDELT2": 0.0006680651298636009,
+      "PC1_1": 0.9984089794503764,
+      "PC1_2": -0.05638714173335802,
+      "PC2_1": 0.056107738780615965,
+      "PC2_2": 0.9984247200710359,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "IC 342",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 361.18981,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 172,
+      "total_exposure_s": 51600.0,
+      "date_obs": "2024-11-08T01:18:47.713",
+      "date_end": "2024-11-09T10:24:33.242"
+    },
+    "discovery": {
+      "discoverer_id": "e-e-barnard",
+      "date": "1890",
+      "location": "Nashville, Tennessee, USA",
+      "method": "Photographic",
+      "notes": "Heavily obscured by dust in the Milky Way's own disk, which is why it's nicknamed the 'Hidden Galaxy' despite being relatively close and intrinsically bright."
+    },
+    "distance": {
+      "value_ly": 11000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "ic-239",
+    "name": "IC 239",
+    "category": "Galaxy",
+    "file": "images/ic-239.jpg",
+    "image_version": 1792878192,
+    "ra": 39.018829724,
+    "dec": 38.890021204,
+    "width_deg": 2.0113137795175238,
+    "height_deg": 1.322129224740889,
+    "rotation_deg": -126.18457202466642,
+    "corners": [
+      [
+        39.632019962271514,
+        40.244048512677296
+      ],
+      [
+        38.09795442653738,
+        38.61858779324924
+      ],
+      [
+        39.45892289729457,
+        37.84043131784665
+      ],
+      [
+        41.00666078311017,
+        39.44791546281763
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1971,
+      "CRPIX1": 2044.2988824097067,
+      "CRPIX2": 630.5714902172687,
+      "CRVAL1": 39.018829724,
+      "CRVAL2": 38.890021204,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006710297427892268,
+      "CDELT2": 0.0006710683481277682,
+      "PC1_1": -0.590193265036368,
+      "PC1_2": 0.8072619834389028,
+      "PC2_1": -0.8068061880989263,
+      "PC2_2": -0.5908161937906575,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "IC 239",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.97674,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 51,
+      "total_exposure_s": 15300.0,
+      "date_obs": "2025-09-28T02:52:07.541",
+      "date_end": "2025-09-29T05:25:39.952"
+    },
+    "discovery": {
+      "discoverer_id": "guillaume-bigourdan",
+      "date": "1884",
+      "location": "Paris Observatory, France",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 52000000,
+      "source": "NED (Hubble flow)"
+    }
+  },
+  {
+    "id": "ngc7000-na-nebula",
+    "name": "NGC7000 (NA Nebula)",
+    "category": "Emission Nebula",
+    "file": "images/ngc7000-na-nebula.jpg",
+    "image_version": 1792880048,
+    "ra": 314.3483831232,
+    "dec": 44.40602670411,
+    "width_deg": 3.3479659720834754,
+    "height_deg": 3.5027401652047585,
+    "rotation_deg": -87.10674358048581,
+    "corners": [
+      [
+        316.7506873163603,
+        46.140905219835425
+      ],
+      [
+        316.84711650795026,
+        42.793645093446194
+      ],
+      [
+        312.08534769578546,
+        42.6226902831273
+      ],
+      [
+        311.7095917052467,
+        45.95984593057778
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 2868,
+      "NAXIS2": 3000,
+      "CRPIX1": 1434.08203125,
+      "CRPIX2": 1500.1627604166665,
+      "CRVAL1": 314.3483831232,
+      "CRVAL2": 44.40602670411,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0011688477117262912,
+      "CDELT2": 0.0011686229424048605,
+      "PC1_1": 0.05046634032316269,
+      "PC1_2": -0.998725762406471,
+      "PC2_1": -0.9987382470224008,
+      "PC2_2": -0.05021866121893031,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "October 24, 1786",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)",
+      "notes": "Too faint and diffuse to appreciate visually; its North-America shape wasn't obvious until Max Wolf's wide-field photographs in the 1890s."
+    },
+    "distance": {
+      "value_ly": 2590,
+      "source": "SIMBAD / Gaia (literature average)"
+    }
+  },
+  {
+    "id": "c-12-barnard-150-fireworks-galaxy-dark-sea-horse-nebula",
+    "name": "C 12 & Barnard 150 (Fireworks Galaxy & Dark Sea Horse Nebula)",
+    "category": [
+      "Galaxy",
+      "Dark Nebula"
+    ],
+    "category_labels": [
+      "C 12 (Fireworks Galaxy)",
+      "Barnard 150 (Dark Sea Horse Nebula)"
+    ],
+    "file": "images/c-12-barnard-150-fireworks-galaxy-dark-sea-horse-nebula.jpg",
+    "image_version": 1792882509,
+    "ra": 312.122437117,
+    "dec": 60.2476540563,
+    "width_deg": 3.687482691183292,
+    "height_deg": 1.2599409475367997,
+    "rotation_deg": -0.24967750131715877,
+    "corners": [
+      [
+        307.19031186311184,
+        59.49527611971169
+      ],
+      [
+        314.46348143885416,
+        59.55117828950639
+      ],
+      [
+        314.5673319629216,
+        60.810524621002315
+      ],
+      [
+        307.01004424467305,
+        60.75154982245666
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1026,
+      "CRPIX1": 2033.0645648191653,
+      "CRPIX2": 546.0790210633694,
+      "CRVAL1": 312.122437117,
+      "CRVAL2": 60.2476540563,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0012302327947953475,
+      "CDELT2": 0.0012299758235736875,
+      "PC1_1": 0.9999888387601268,
+      "PC1_2": 0.004724653973891594,
+      "PC2_1": -0.004358583833930356,
+      "PC2_2": 0.9999905013283689,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "September 9, 1798 (NGC 6946); catalogued 1927 (Barnard 150)",
+      "location": "Slough, England / photographic plates, USA",
+      "method": "Visual (telescopic) and photographic",
+      "notes": "NGC 6946 ('Fireworks Galaxy', nicknamed for its unusually high supernova rate) was found by Herschel; the dark nebula Barnard 150 was catalogued decades later by E. E. Barnard from photographic plates in his Atlas of Selected Regions of the Milky Way."
+    },
+    "distance": [
+      {
+        "value_ly": 22000000,
+        "source": "NED (Tully-Fisher)"
+      },
+      {
+        "value_ly": 2800,
+        "source": "Estimate (Cepheus OB2 association distance)"
+      }
+    ]
+  },
+  {
+    "id": "c-30-stephans-quintet",
+    "name": "C 30 (Stephans Quintet)",
+    "category": "Galaxy",
+    "file": "images/c-30-stephans-quintet.jpg",
+    "image_version": 1792884580,
+    "ra": 340.295930045,
+    "dec": 37.2203721832,
+    "width_deg": 5.319203072893513,
+    "height_deg": 1.045276151067013,
+    "rotation_deg": -100.65823968977679,
+    "corners": [
+      [
+        339.7098303146109,
+        38.65784493841089
+      ],
+      [
+        338.57127183965275,
+        33.418942228820946
+      ],
+      [
+        339.80188500244253,
+        33.23723959564865
+      ],
+      [
+        341.024787183532,
+        38.46360526045456
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 590,
+      "CRPIX1": 749.7489949347034,
+      "CRPIX2": 403.9653216484693,
+      "CRVAL1": 340.295930045,
+      "CRVAL2": 37.2203721832,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.001777098442857027,
+      "CDELT2": 0.0017760031359791402,
+      "PC1_1": -0.18483367822013516,
+      "PC1_2": 0.9827698160788291,
+      "PC2_1": -0.982733438187962,
+      "PC2_2": -0.18502699659040853,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "edouard-stephan",
+      "date": "1877",
+      "location": "Marseille Observatory, France",
+      "method": "Visual (telescopic)",
+      "notes": "One member, NGC 7320, is actually a much closer foreground galaxy; the other four form the true physically interacting group."
+    },
+    "distance": {
+      "value_ly": 290000000,
+      "source": "NED (redshift-based, main group)"
+    }
+  },
+  {
+    "id": "ngc-891-silver-silver-galaxy",
+    "name": "NGC 891 (Silver Silver Galaxy)",
+    "category": "Galaxy",
+    "file": "images/ngc-891-silver-silver-galaxy.jpg",
+    "image_version": 1792884582,
+    "ra": 35.8448206475,
+    "dec": 42.1987668705,
+    "width_deg": 2.000469959691906,
+    "height_deg": 1.326307489112014,
+    "rotation_deg": 54.452156634765906,
+    "corners": [
+      [
+        35.94647503837895,
+        40.92030751952079
+      ],
+      [
+        37.52755760290114,
+        42.53574663603219
+      ],
+      [
+        36.06193857515128,
+        43.31513995618043
+      ],
+      [
+        34.499033973386766,
+        41.679727275107766
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1995,
+      "CRPIX1": 1497.6618715375853,
+      "CRPIX2": 1212.344761227221,
+      "CRVAL1": 35.8448206475,
+      "CRVAL2": 42.1987668705,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.000667029402538468,
+      "CDELT2": 0.000665415551762595,
+      "PC1_1": 0.5814965688825253,
+      "PC1_2": -0.8135488555568439,
+      "PC2_1": 0.8157635941440491,
+      "PC2_2": 0.5783854756727411,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 891",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.87071,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 91,
+      "total_exposure_s": 27300.0,
+      "date_obs": "2025-09-18T04:43:06.127",
+      "date_end": "2025-09-19T09:32:53.886"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "October 6, 1784",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 30000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "markarians-chain",
+    "name": "Markarians Chain",
+    "category": "Galaxy",
+    "file": "images/markarians-chain.jpg",
+    "image_version": 1792885900,
+    "ra": 186.9322215898,
+    "dec": 13.30090277167,
+    "width_deg": 2.047205915366111,
+    "height_deg": 1.3552444626100488,
+    "rotation_deg": 53.36249662752491,
+    "corners": [
+      [
+        185.7481749654564,
+        12.881264631119734
+      ],
+      [
+        187.00188764824046,
+        14.526742274146487
+      ],
+      [
+        188.12095206823145,
+        13.714987587548885
+      ],
+      [
+        186.86385694284252,
+        12.074991395199994
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1986,
+      "CRPIX1": 1500.2747252747254,
+      "CRPIX2": 993.1318681318683,
+      "CRVAL1": 186.9322215898,
+      "CRVAL2": 13.30090277167,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006827774894984653,
+      "CDELT2": 0.0006828560522039235,
+      "PC1_1": 0.596726134325985,
+      "PC1_2": 0.8024449642264363,
+      "PC2_1": 0.8023023139407245,
+      "PC2_2": -0.5969179148303051,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "benjamin-markarian",
+      "date": "1961",
+      "location": "Byurakan Observatory, Armenia, USSR",
+      "method": "Photographic (common proper-motion study)",
+      "notes": "Markarian identified these Virgo Cluster galaxies as a physically related chain by their shared proper motion."
+    },
+    "distance": {
+      "value_ly": 53000000,
+      "source": "NED (Virgo Cluster average)"
+    }
+  },
+  {
+    "id": "m51-whirlpool-galaxy",
+    "name": "m51 (Whirlpool Galaxy)",
+    "category": "Galaxy",
+    "file": "images/m51-whirlpool-galaxy.jpg",
+    "image_version": 1792885900,
+    "ra": 202.4687641819,
+    "dec": 47.19311203923,
+    "width_deg": 0.7507412278460293,
+    "height_deg": 0.750749385497723,
+    "rotation_deg": -126.27631389020803,
+    "corners": [
+      [
+        203.24209975240657,
+        47.27103080010137
+      ],
+      [
+        202.58610410009626,
+        46.66833797708906
+      ],
+      [
+        201.6977714834908,
+        47.1100052010767
+      ],
+      [
+        202.3490806728641,
+        47.71776390622038
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 2000,
+      "NAXIS2": 2000,
+      "CRPIX1": 1000.5,
+      "CRPIX2": 1000.5,
+      "CRVAL1": 202.4687641819,
+      "CRVAL2": 47.19311203923,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0003755776348688393,
+      "CDELT2": 0.00037557009994965444,
+      "PC1_1": -0.5916708072593406,
+      "PC1_2": -0.8061796672188404,
+      "PC2_1": -0.8061766590308638,
+      "PC2_2": 0.5916749060369507,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "charles-messier",
+      "date": "October 13, 1773",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 23000000,
+      "source": "NED (Tully-Fisher)"
+    }
+  },
+  {
+    "id": "m42-orion-nebula",
+    "name": "M42 Orion Nebula",
+    "category": "Emission Nebula",
+    "file": "images/m42-orion-nebula.jpg",
+    "image_version": 1792886740,
+    "ra": 84.1210106991,
+    "dec": -5.23330979114,
+    "width_deg": 1.0267041182834626,
+    "height_deg": 1.3985057250257906,
+    "rotation_deg": -12.186304947562693,
+    "corners": [
+      [
+        83.11532702324835,
+        -5.900813765342581
+      ],
+      [
+        84.12421104811985,
+        -6.118434291556563
+      ],
+      [
+        84.41948618641564,
+        -4.751095544604352
+      ],
+      [
+        83.41263850746041,
+        -4.534079955936102
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 2202,
+      "NAXIS2": 3000,
+      "CRPIX1": 1796.1206516634904,
+      "CRPIX2": 1854.8141799401037,
+      "CRVAL1": 84.1210106991,
+      "CRVAL2": -5.23330979114,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 0.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.00046646085791813126,
+      "CDELT2": 0.0004664521086412572,
+      "PC1_1": 0.9776232840980541,
+      "PC1_2": 0.21036329144918645,
+      "PC2_1": -0.21112900993198747,
+      "PC2_2": 0.9774582043060146,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "FlatWizard",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 360.0,
+      "pixel_size_um": 2.4,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 3.75,
+      "num_frames": 31,
+      "total_exposure_s": 116.25,
+      "date_obs": "2024-11-07T22:45:36.423",
+      "date_end": "2024-11-08T12:49:29.693"
+    },
+    "discovery": {
+      "discoverer_id": "nicolas-claude-fabri-de-peiresc",
+      "date": "November 1610",
+      "location": "Provence, France",
+      "method": "Visual (telescopic)",
+      "notes": "Usually credited as the first telescopic observer of the nebula itself, a few months after Galileo's first telescopic observations of the sky."
+    },
+    "distance": {
+      "value_ly": 1344,
+      "source": "Gaia DR3 parallax"
+    }
+  },
+  {
+    "id": "m20-trifid-nebula",
+    "name": "M20 (Trifid Nebula)",
+    "category": [
+      "Emission Nebula",
+      "Reflection Nebula"
+    ],
+    "sidebar_categories": [
+      "Emission Nebula"
+    ],
+    "file": "images/m20-trifid-nebula.jpg",
+    "image_version": 1792886741,
+    "ra": 270.688235805,
+    "dec": -22.8531899991,
+    "width_deg": 2.0756686326421496,
+    "height_deg": 1.3744431260246992,
+    "rotation_deg": -99.47004959118246,
+    "corners": [
+      [
+        270.1188789114049,
+        -21.83234780920608
+      ],
+      [
+        269.7368079935297,
+        -23.87794337907065
+      ],
+      [
+        271.2200495214837,
+        -24.10754440653793
+      ],
+      [
+        271.5805546646207,
+        -22.058536170322323
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1988,
+      "CRPIX1": 1327.598381601906,
+      "CRPIX2": 997.1936245491202,
+      "CRVAL1": 270.688235805,
+      "CRVAL2": -22.8531899991,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 0.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006917517210865889,
+      "CDELT2": 0.0006923629085822335,
+      "PC1_1": -0.16465024526550548,
+      "PC1_2": 0.9863520146144625,
+      "PC2_1": -0.9862091591768346,
+      "PC2_2": -0.16550375934014577,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "charles-messier",
+      "date": "June 5, 1764",
+      "location": "Paris, France",
+      "method": "Visual (telescopic)",
+      "notes": "Its three dark dust lanes, which give the nebula its name, were first described by John Herschel in the 1830s."
+    },
+    "distance": {
+      "value_ly": 5200,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "m17-swan-nebula",
+    "name": "M17 (Swan Nebula)",
+    "category": "Emission Nebula",
+    "file": "images/m17-swan-nebula.jpg",
+    "image_version": 1792884585,
+    "ra": 275.277078021,
+    "dec": -16.21663981333,
+    "width_deg": 1.070829456581925,
+    "height_deg": 1.2204726917025592,
+    "rotation_deg": 34.37876709244727,
+    "corners": [
+      [
+        274.45920000386565,
+        -16.013547321092577
+      ],
+      [
+        275.3783722670469,
+        -15.410417007434484
+      ],
+      [
+        276.0967273428112,
+        -16.416562903636912
+      ],
+      [
+        275.1750480298939,
+        -17.022782342606508
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 2635,
+      "NAXIS2": 3000,
+      "CRPIX1": 1317.883895131086,
+      "CRPIX2": 1500.4681647940074,
+      "CRVAL1": 275.277078021,
+      "CRVAL2": -16.21663981333,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 0.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0004065987422328876,
+      "CDELT2": 0.0004069703960180222,
+      "PC1_1": 0.8252767922281582,
+      "PC1_2": 0.564728444661327,
+      "PC2_1": 0.5641140755322612,
+      "PC2_2": -0.8256968631322165,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "philippe-loys-de-cheseaux",
+      "date": "1745-1746",
+      "location": "Lausanne, Switzerland",
+      "method": "Visual (telescopic)",
+      "notes": "Independently catalogued by Charles Messier in 1764."
+    },
+    "distance": {
+      "value_ly": 5000,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "ic-1805-heart-nebula",
+    "name": "IC 1805 (Heart Nebula)",
+    "category": "Emission Nebula",
+    "file": "images/ic-1805-heart-nebula.jpg",
+    "image_version": 1792885900,
+    "ra": 38.00180701335,
+    "dec": 61.3669649383,
+    "width_deg": 1.8324811952937763,
+    "height_deg": 2.205775815034508,
+    "rotation_deg": 1.026953380350297,
+    "corners": [
+      [
+        35.978390673596515,
+        62.43855913559104
+      ],
+      [
+        39.9409973439329,
+        62.47260490726304
+      ],
+      [
+        39.890769172717384,
+        60.266960408930736
+      ],
+      [
+        36.19780496252159,
+        60.23529187516377
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 2494,
+      "NAXIS2": 3000,
+      "CRPIX1": 1247.0689655172414,
+      "CRPIX2": 1500.2586206896553,
+      "CRVAL1": 38.00180701335,
+      "CRVAL2": 61.3669649383,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0007352562088300325,
+      "CDELT2": 0.0007356820505114076,
+      "PC1_1": 0.9998302897254308,
+      "PC1_2": 0.018422587971319314,
+      "PC2_1": 0.017912220920151878,
+      "PC2_2": -0.9998395633008866,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "max-wolf",
+      "date": "1892",
+      "location": "Heidelberg, Germany",
+      "method": "Photographic"
+    },
+    "distance": {
+      "value_ly": 7500,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "c-65-sculptur-galaxy",
+    "name": "C 65 (Sculptur Galaxy)",
+    "category": "Galaxy",
+    "file": "images/c-65-sculptur-galaxy.jpg",
+    "image_version": 1792884587,
+    "ra": 12.46713181583,
+    "dec": -25.88084085356,
+    "width_deg": 2.47572349931278,
+    "height_deg": 1.8557954186854493,
+    "rotation_deg": 93.61548529077857,
+    "corners": [
+      [
+        11.514084438977266,
+        -27.171354421399297
+      ],
+      [
+        11.362024081262641,
+        -24.69940927172457
+      ],
+      [
+        13.399803710636366,
+        -24.583773203910145
+      ],
+      [
+        13.59477826815358,
+        -27.05326911952486
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2249,
+      "CRPIX1": 1500.2307337332718,
+      "CRPIX2": 1124.826949700046,
+      "CRVAL1": 12.46713181583,
+      "CRVAL2": -25.88084085356,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 0.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0008258021424353413,
+      "CDELT2": 0.0008257477147826865,
+      "PC1_1": -0.06305651116018815,
+      "PC1_2": 0.9980099580667043,
+      "PC2_1": 0.9980162766741251,
+      "PC2_2": 0.06295642535529002,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": null,
+    "discovery": {
+      "discoverer_id": "caroline-herschel",
+      "date": "September 23, 1783",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)",
+      "notes": "Found by Caroline Herschel while sweeping for comets, one of several discoveries credited to her independently of her brother William."
+    },
+    "distance": {
+      "value_ly": 11400000,
+      "source": "NED / SIMBAD consensus"
+    }
+  },
+  {
+    "id": "m-53",
+    "name": "M 53",
+    "category": "Globular Cluster",
+    "file": "images/m-53.jpg",
+    "image_version": 1792885901,
+    "ra": 198.6341672199,
+    "dec": 17.96622803499,
+    "width_deg": 2.04183442038015,
+    "height_deg": 1.3563566783805663,
+    "rotation_deg": 100.17350010033465,
+    "corners": [
+      [
+        198.12535248429398,
+        16.84114544935088
+      ],
+      [
+        197.73848233565067,
+        18.849501348272852
+      ],
+      [
+        199.14994687701076,
+        19.090347114596515
+      ],
+      [
+        199.5213634723452,
+        17.079265968455115
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1993,
+      "CRPIX1": 1500.279485746227,
+      "CRPIX2": 996.6461710452768,
+      "CRVAL1": 198.6341672199,
+      "CRVAL2": 17.96622803499,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006810503689924903,
+      "CDELT2": 0.000680949701830775,
+      "PC1_1": -0.17660561643654685,
+      "PC1_2": 0.9842816955745277,
+      "PC2_1": 0.9842896885309925,
+      "PC2_2": 0.17656106323751503,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 5053",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 361.25536,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 30.0,
+      "num_frames": 145,
+      "total_exposure_s": 4350.0,
+      "date_obs": "2025-03-18T04:33:30.943",
+      "date_end": "2025-03-18T06:29:36.459"
+    },
+    "discovery": {
+      "discoverer_id": "johann-elert-bode",
+      "date": "February 3, 1775",
+      "location": "Berlin, Germany",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 58000,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "ngc-5466",
+    "name": "NGC 5466",
+    "category": "Globular Cluster",
+    "file": "images/ngc-5466.jpg",
+    "image_version": 1792885901,
+    "ra": 211.3736122118,
+    "dec": 28.52964573911,
+    "width_deg": 1.324738850315823,
+    "height_deg": 1.1181476826579009,
+    "rotation_deg": -79.71007614347475,
+    "corners": [
+      [
+        211.8685736353401,
+        29.280257983513497
+      ],
+      [
+        212.13041667701557,
+        27.975606929292066
+      ],
+      [
+        210.88555360441296,
+        27.777185336364564
+      ],
+      [
+        210.6087327605944,
+        29.07936610314302
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2532,
+      "CRPIX1": 1500.4310344827586,
+      "CRPIX2": 1266.3793103448274,
+      "CRVAL1": 211.3736122118,
+      "CRVAL2": 28.52964573911,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.00044182922660235805,
+      "CDELT2": 0.00044176288147418575,
+      "PC1_1": 0.17860425782372188,
+      "PC1_2": -0.9839209922992992,
+      "PC2_1": -0.9839269140118903,
+      "PC2_2": -0.17857163235810544,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 5466",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "ASI Mount",
+      "focal_length_mm": 361.04021,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 30.0,
+      "num_frames": 146,
+      "total_exposure_s": 4380.0,
+      "date_obs": "2025-03-18T08:33:05.145",
+      "date_end": "2025-03-18T10:31:33.997"
+    },
+    "discovery": {
+      "discoverer_id": "william-herschel",
+      "date": "May 17, 1784",
+      "location": "Slough, England",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 52000,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "soul-nebula",
+    "name": "Soul Nebula",
+    "category": "Emission Nebula",
+    "file": "images/soul-nebula.jpg",
+    "image_version": 1792884589,
+    "ra": 44.1549110969,
+    "dec": 60.5452291885,
+    "width_deg": 2.0820724389325016,
+    "height_deg": 1.3911027891959802,
+    "rotation_deg": 54.30182697895734,
+    "corners": [
+      [
+        43.688046028183265,
+        59.25332387611607
+      ],
+      [
+        46.16457982047708,
+        60.93014860263354
+      ],
+      [
+        43.83027620941041,
+        61.75632658911234
+      ],
+      [
+        41.41401952888376,
+        60.03735058297021
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1711.910131195415,
+      "CRPIX2": 806.5740676937774,
+      "CRVAL1": 44.1549110969,
+      "CRVAL2": 60.5452291885,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006946128298346829,
+      "CDELT2": 0.0006944414839207201,
+      "PC1_1": 0.5833278506141069,
+      "PC1_2": -0.8122367996452305,
+      "PC2_1": 0.8120415430841205,
+      "PC2_2": 0.583599633572161,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Soul Nebula",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.62199,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 354,
+      "total_exposure_s": 106200.0,
+      "date_obs": "2025-09-30T03:17:17.335",
+      "date_end": "2025-10-17T09:30:58.240"
+    },
+    "discovery": {
+      "discoverer_id": "max-wolf",
+      "date": "1892",
+      "location": "Heidelberg, Germany",
+      "method": "Photographic",
+      "notes": "Part of the same star-forming complex as the neighboring Heart Nebula (IC 1805)."
+    },
+    "distance": {
+      "value_ly": 6500,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "perseus-galaxy-cluster",
+    "name": "Perseus galaxy cluster",
+    "category": "Galaxy",
+    "file": "images/perseus-galaxy-cluster.jpg",
+    "image_version": 1792884589,
+    "ra": 50.0071430594,
+    "dec": 41.4371781109,
+    "width_deg": 2.00698115486529,
+    "height_deg": 1.3292346124457315,
+    "rotation_deg": 54.143011941358566,
+    "corners": [
+      [
+        49.699552522494976,
+        40.19255786258133
+      ],
+      [
+        51.269322179036855,
+        41.812765798342284
+      ],
+      [
+        49.82225875345758,
+        42.598995226502204
+      ],
+      [
+        48.270109087807775,
+        40.959365216606756
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1981,
+      "CRPIX1": 1712.8663635226417,
+      "CRPIX2": 802.9014961698114,
+      "CRVAL1": 50.0071430594,
+      "CRVAL2": 41.4371781109,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006704876680281332,
+      "CDELT2": 0.0006703190677273367,
+      "PC1_1": 0.5847579583408766,
+      "PC1_2": -0.8112078218046284,
+      "PC2_1": 0.8092929861005603,
+      "PC2_2": 0.5874051946045747,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 1270",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.51734,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 41,
+      "total_exposure_s": 12300.0,
+      "date_obs": "2026-01-12T23:47:16.237",
+      "date_end": "2026-01-13T04:08:09.183"
+    },
+    "discovery": {
+      "discoverer_id": "george-abell",
+      "date": "1958",
+      "location": "Palomar Observatory, California, USA",
+      "method": "Photographic (Palomar Observatory Sky Survey)",
+      "notes": "Catalogued as Abell 426; one of the most massive nearby galaxy clusters, with a hot intracluster medium studied extensively in X-rays."
+    },
+    "distance": {
+      "value_ly": 240000000,
+      "source": "NED (redshift-based)"
+    }
+  },
+  {
+    "id": "ngc-2409",
+    "name": "NGC 2409",
+    "category": "Galaxy",
+    "file": "images/ngc-2409.jpg",
+    "image_version": 1792885902,
+    "ra": 143.0495298729,
+    "dec": 21.55264293095,
+    "width_deg": 2.083890333574179,
+    "height_deg": 1.3919853643433935,
+    "rotation_deg": 54.15171413454717,
+    "corners": [
+      [
+        141.79100163882825,
+        21.111233251150203
+      ],
+      [
+        143.0998422760128,
+        22.80511351000602
+      ],
+      [
+        144.31619723180512,
+        21.984809140154756
+      ],
+      [
+        143.00061066704646,
+        20.300420424443068
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 2004,
+      "CRPIX1": 1500.136462882096,
+      "CRPIX2": 1002.3198689956333,
+      "CRVAL1": 143.0495298729,
+      "CRVAL2": 21.55264293095,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006949847033174971,
+      "CDELT2": 0.0006951043205982146,
+      "PC1_1": 0.5856451429534318,
+      "PC1_2": 0.810567558279416,
+      "PC2_1": 0.8104368204952408,
+      "PC2_2": -0.5858260492548661,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": null,
+      "camera": null,
+      "telescope": null,
+      "focal_length_mm": 362.60355,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": null,
+      "bayer_pattern": null,
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 55,
+      "total_exposure_s": 16500.0,
+      "date_obs": null,
+      "date_end": null
+    },
+    "discovery": {
+      "discoverer_id": "albert-marth",
+      "date": "1864",
+      "location": "Malta",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 300000000,
+      "source": "NED (Hubble flow, approximate)"
+    }
+  },
+  {
+    "id": "ngc-1333-embryo-nebula",
+    "name": "NGC 1333 (Embryo Nebula)",
+    "category": "Reflection Nebula",
+    "file": "images/ngc-1333-embryo-nebula.jpg",
+    "image_version": 1792885904,
+    "ra": 52.24958197343,
+    "dec": 31.46296914481,
+    "width_deg": 1.8965537100570238,
+    "height_deg": 1.2387980502011118,
+    "rotation_deg": -126.36651310583329,
+    "corners": [
+      [
+        53.49862731637449,
+        31.85336116547259
+      ],
+      [
+        52.175837080011064,
+        30.332186865599823
+      ],
+      [
+        51.01038373231174,
+        31.06043169865827
+      ],
+      [
+        52.324433332244745,
+        32.593590443991644
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1960,
+      "CRPIX1": 1500.1497603833864,
+      "CRPIX2": 980.1817092651756,
+      "CRVAL1": 52.24958197343,
+      "CRVAL2": 31.46296914481,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006325957808665662,
+      "CDELT2": 0.0006323680072854254,
+      "PC1_1": -0.5928492889264254,
+      "PC1_2": -0.8053134300503325,
+      "PC2_1": -0.8053959386969347,
+      "PC2_2": 0.5927371946575342,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "NGC 1333",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.89483,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 335,
+      "total_exposure_s": 100500.0,
+      "date_obs": "2025-09-28T05:33:20.052",
+      "date_end": "2025-10-29T09:53:26.967"
+    },
+    "discovery": {
+      "discoverer_id": "eduard-schonfeld",
+      "date": "1855",
+      "location": "Mannheim, Germany",
+      "method": "Visual (telescopic)"
+    },
+    "distance": {
+      "value_ly": 1000,
+      "source": "SIMBAD (literature average)"
+    }
+  },
+  {
+    "id": "m-1-crab-nebula",
+    "name": "M 1 (Crab Nebula)",
+    "category": "Supernova Remnant",
+    "file": "images/m-1-crab-nebula.jpg",
+    "image_version": 1792885905,
+    "ra": 83.61384829924,
+    "dec": 22.03289662366,
+    "width_deg": 2.0144515155528877,
+    "height_deg": 1.3287766992430212,
+    "rotation_deg": -126.51627148145268,
+    "corners": [
+      [
+        84.83963465697528,
+        22.442376637002432
+      ],
+      [
+        83.54347323426627,
+        20.82790842884894
+      ],
+      [
+        82.3944362610973,
+        21.614278086572714
+      ],
+      [
+        83.6846484274839,
+        23.23778784727579
+      ]
+    ],
+    "wcs": {
+      "NAXIS": 2,
+      "NAXIS1": 3000,
+      "NAXIS2": 1979,
+      "CRPIX1": 1500.1411897590363,
+      "CRPIX2": 989.5990210843374,
+      "CRVAL1": 83.61384829924,
+      "CRVAL2": 22.03289662366,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "CUNIT1": "deg",
+      "CUNIT2": "deg",
+      "LONPOLE": 180.0,
+      "LATPOLE": 90.0,
+      "CDELT1": 0.0006718431894952171,
+      "CDELT2": 0.0006718907881325324,
+      "PC1_1": -0.5950323932660323,
+      "PC1_2": -0.8037017176565556,
+      "PC2_1": -0.8036057709372528,
+      "PC2_2": 0.595161965280329,
+      "RADESYS": "ICRS",
+      "EQUINOX": 2000
+    },
+    "capture": {
+      "object": "Crab Nebula",
+      "camera": "ZWO ASI183MC Pro",
+      "telescope": "60mm Apertura",
+      "focal_length_mm": 362.40654,
+      "pixel_size_um": 1.2,
+      "gain_e_per_adu": 0.909303,
+      "bayer_pattern": "RGGB",
+      "filter": "NoFilter",
+      "exptime_s": 300.0,
+      "num_frames": 34,
+      "total_exposure_s": 10200.0,
+      "date_obs": "2025-12-22T02:33:23.914",
+      "date_end": "2025-12-22T08:53:51.816"
+    },
+    "discovery": {
+      "discoverer_id": "john-bevis",
+      "date": "1731",
+      "location": "London, England",
+      "method": "Visual (telescopic)",
+      "notes": "Independently rediscovered by Charles Messier in 1758, prompting him to begin the Messier Catalog."
+    },
+    "distance": {
+      "value_ly": 6500,
+      "source": "Literature (pulsar/expansion-based, consistent with SIMBAD)"
+    }
+  }
+]
