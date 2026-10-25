@@ -216,6 +216,18 @@ html, body {
 
 #sidebar-toggle {
   left: 16px;
+  width: auto;
+  height: 44px;
+  padding: 0 14px;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+#sidebar-toggle-chevron {
+  font-size: 18px;
+  line-height: 1;
 }
 
 #info-toggle {
@@ -263,6 +275,26 @@ html, body {
 #settings-menu button:hover {
   background: #2a3550;
   color: #ffffff;
+}
+
+/* Docked styling for #opacity-control when app.js has moved it inside the
+   settings menu (mobile only -- see the matchMedia code there). The plain
+   #opacity-control rule below (inside the mobile media query) hides it in
+   its normal map position; this higher-specificity selector overrides
+   that so it's visible and laid out as a menu row once nested here. */
+#settings-menu #opacity-control {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  position: static;
+  background: none;
+  border: none;
+  padding: 4px 16px 8px;
+  margin: 0;
+}
+
+#settings-menu #opacity-control input[type="range"] {
+  width: 100%;
 }
 
 #mobile-info-overlay {
@@ -442,31 +474,12 @@ html, body {
     display: none;
   }
 
-  /* Vertical opacity slider: narrow phones don't have the width to spare
-     for the horizontal version, and this leaves room beside it for the
-     object-info overlay below. writing-mode is the modern way to get a
-     vertical range input; a fixed height (rather than flex-stretching it)
-     avoids a Chrome bug where the painted track/fill ignores a flexed
-     height and overflows past the element's actual box. */
+  /* The opacity slider moves into the settings menu on mobile (see the
+     app.js code that reparents #opacity-control there), so it's hidden
+     in its normal map position here; #settings-menu #opacity-control
+     below restyles it for that new spot. */
   #opacity-control {
-    width: auto;
-    height: 210px;
-    padding: 14px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  #opacity-control label {
-    margin-bottom: 0;
-  }
-
-  #opacity-control input[type="range"] {
-    width: 24px;
-    height: 150px;
-    writing-mode: vertical-lr;
-    direction: rtl;
+    display: none;
   }
 
   /* Compact, always-on object-info overlay: shows name/type/discovery for
@@ -491,10 +504,10 @@ html, body {
 
   #mobile-info-panel {
     position: absolute;
+    left: 16px;
     right: 16px;
-    bottom: 16px;
-    width: 50%;
-    max-height: 50%;
+    bottom: 35px;
+    max-height: 25%;
     z-index: 22;
     display: flex;
     flex-direction: column;
@@ -578,8 +591,9 @@ html, body {
 
   #mobile-info-tab {
     position: absolute;
-    right: 16px;
-    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35px;
     width: 52px;
     height: 36px;
     z-index: 22;
@@ -594,4 +608,56 @@ html, body {
     align-items: center;
     justify-content: center;
   }
+}
+
+/* First-visit intro popup: shown once on mobile only (see the
+   localStorage-gated JS in app.js). Base rule keeps it off on desktop and
+   before JS decides to show it; the :not([hidden]) override only takes
+   effect once JS removes the hidden attribute. */
+#intro-popup {
+  display: none;
+}
+
+#intro-popup:not([hidden]) {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(5, 7, 12, 0.75);
+}
+
+#intro-popup-content {
+  max-width: 320px;
+  background: #12151cf0;
+  backdrop-filter: blur(6px);
+  border: 1px solid #262b36;
+  border-radius: 12px;
+  padding: 20px;
+  color: #e6e8ee;
+  text-align: center;
+}
+
+#intro-popup-content h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+#intro-popup-content p {
+  margin: 0 0 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #c7cdda;
+}
+
+#intro-popup-dismiss {
+  background: #2a3550;
+  color: #e6e8ee;
+  border: 1px solid #3a4a73;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 14px;
+  cursor: pointer;
 }

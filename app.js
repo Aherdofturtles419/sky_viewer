@@ -22,6 +22,14 @@ const AUTO_SHOW_MAX_FOV_FACTOR = 50;
 // view with many qualifying objects doesn't load the whole manifest.
 const MAX_VISIBLE_IMAGES = 6;
 
+// Tap-to-select tuning: a footprint's tap target is never smaller than this
+// many screen pixels, even if the footprint itself renders much smaller
+// (e.g. when zoomed way out to the whole sky) -- see objectNearScreenPoint().
+const MIN_TAP_RADIUS_PX = 24;
+// A pointer that moves more than this many pixels between down and up is a
+// pan/pinch, not a tap, and cancels tap-to-select for that gesture.
+const TAP_MOVE_CANCEL_PX = 10;
+
 let aladin;
 let manifest = [];
 let discoverers = {};
@@ -57,6 +65,19 @@ A.init.then(async () => {
 
   opacitySlider = document.getElementById('opacity-slider');
   opacitySlider.addEventListener('input', onOpacityChange);
+
+  // First-visit intro popup: mobile only, shown once per browser. Checked
+  // just at load time (not re-checked on resize) since it's meant to greet
+  // a first-time mobile visitor, not react to window resizing afterwards.
+  const INTRO_SEEN_KEY = 'skyviewer-intro-seen';
+  if (window.matchMedia('(max-width: 820px)').matches && !localStorage.getItem(INTRO_SEEN_KEY)) {
+    const introPopupEl = document.getElementById('intro-popup');
+    introPopupEl.hidden = false;
+    document.getElementById('intro-popup-dismiss').addEventListener('click', () => {
+      introPopupEl.hidden = true;
+      localStorage.setItem(INTRO_SEEN_KEY, '1');
+    });
+  }
 
   // Mobile layout: the sidebar and info panel become off-canvas drawers
   // (see the max-width media query in style.css). These buttons/backdrop
@@ -109,6 +130,25 @@ A.init.then(async () => {
     fullscreenButtonEl.textContent = document.fullscreenElement ? 'Exit fullscreen' : 'Fullscreen';
   });
 
+  // On mobile there's no room for the opacity slider to sit on the map on
+  // its own, so it moves into the settings menu instead; on desktop it
+  // stays on the map as before. This moves the actual element back and
+  // forth rather than duplicating it, so there's only ever one slider to
+  // keep in sync. The breakpoint must match style.css's mobile media query.
+  const opacityControlEl = document.getElementById('opacity-control');
+  const opacityControlHomeEl = document.getElementById('mobile-info-overlay');
+  const mobileLayoutQuery = window.matchMedia('(max-width: 820px)');
+
+  function placeOpacityControl() {
+    if (mobileLayoutQuery.matches) {
+      settingsMenuEl.appendChild(opacityControlEl);
+    } else {
+      document.getElementById('map-area').insertBefore(opacityControlEl, opacityControlHomeEl);
+    }
+  }
+  placeOpacityControl();
+  mobileLayoutQuery.addEventListener('change', placeOpacityControl);
+
   // A long press on a touchscreen can register as a right-click in some
   // browsers (and always does when testing via a desktop device emulator),
   // which would pop the browser's own context menu on top of these
@@ -158,20 +198,38 @@ A.init.then(async () => {
     }
   }, HORIZON_REFRESH_MS);
 
-  // Footprint click -> load that object. NOTE: this relies on the
-  // 'objectClicked' event firing for A.polygon shapes and passing back
-  // the same object we tagged with skyViewerId below. That part of the
-  // Aladin Lite v3 API wasn't confirmed in the docs at the time this was
-  // written, so it's logged to the console for verification — if
-  // clicking a footprint does nothing, check the console output here
-  // and adjust accordingly. The sidebar list is the reliable fallback.
-  aladin.on('objectClicked', (object) => {
-    console.log('objectClicked payload:', object);
-    const id = object && (object.skyViewerId || (object.data && object.data.skyViewerId));
-    if (id) {
-      flyToObject(id);
+  const aladinDiv = document.getElementById('aladin-lite-div');
+
+  // Tap-to-select: Aladin's own built-in footprint click detection only
+  // has a few pixels of tolerance, which makes small footprints (e.g. when
+  // zoomed way out to the whole sky) very hard to hit precisely with a
+  // finger. This replaces it with a more forgiving hit test of our own --
+  // see objectNearScreenPoint() -- driven by plain pointer events so it
+  // doesn't depend on whether a synthetic "click" ends up firing after
+  // Aladin's own pan/zoom handling of the same touch. Listening in the
+  // capture phase means we see the gesture regardless of what Aladin does
+  // with it afterwards (e.g. stopPropagation()).
+  let tapStart = null;
+  aladinDiv.addEventListener('pointerdown', (event) => {
+    tapStart = { x: event.clientX, y: event.clientY, id: event.pointerId };
+  }, { capture: true });
+  aladinDiv.addEventListener('pointermove', (event) => {
+    if (tapStart && event.pointerId === tapStart.id
+      && Math.hypot(event.clientX - tapStart.x, event.clientY - tapStart.y) > TAP_MOVE_CANCEL_PX) {
+      tapStart = null; // moved too far to be a tap -- it's a pan/pinch instead
     }
-  });
+  }, { capture: true });
+  aladinDiv.addEventListener('pointerup', (event) => {
+    if (!tapStart || event.pointerId !== tapStart.id) {
+      return;
+    }
+    const rect = aladinDiv.getBoundingClientRect();
+    const entry = objectNearScreenPoint(event.clientX - rect.left, event.clientY - rect.top);
+    tapStart = null;
+    if (entry) {
+      flyToObject(entry.id);
+    }
+  }, { capture: true });
 
   // Auto-show whichever object the view is currently centered on/near,
   // without requiring a click -- these fire on every pan/zoom (throttled
@@ -181,7 +239,6 @@ A.init.then(async () => {
 
   // If the user grabs the map while a camera flight is in progress, give
   // them control immediately instead of fighting their input.
-  const aladinDiv = document.getElementById('aladin-lite-div');
   ['mousedown', 'touchstart', 'wheel'].forEach((type) => {
     aladinDiv.addEventListener(type, stopCameraAnimation, { passive: true });
   });
@@ -451,6 +508,36 @@ function flyToObject(id) {
     return;
   }
   animateCameraTo(entry.ra, entry.dec, Math.max(entry.width_deg, entry.height_deg) * 1.5);
+}
+
+// Finds the manifest entry whose on-screen footprint is closest to the
+// given point (in pixels, relative to the Aladin div), treating every
+// object as at least MIN_TAP_RADIUS_PX wide so tiny, zoomed-way-out
+// footprints are still easy to tap. The degrees-per-pixel conversion is a
+// simple uniform approximation (real projections distort near the edges of
+// a wide field), which is fine here since it's only sizing a touch target,
+// not drawing anything.
+function objectNearScreenPoint(xPx, yPx) {
+  const [fovWidthDeg, fovHeightDeg] = aladin.getFov();
+  const aladinDiv = document.getElementById('aladin-lite-div');
+  const degPerPx = Math.max(fovWidthDeg, fovHeightDeg) / Math.max(aladinDiv.clientWidth, aladinDiv.clientHeight);
+
+  let closest = null;
+  let closestDist = Infinity;
+  for (const entry of manifest) {
+    const centerPx = aladin.world2pix(entry.ra, entry.dec);
+    if (!centerPx) {
+      continue;
+    }
+    const dist = Math.hypot(xPx - centerPx[0], yPx - centerPx[1]);
+    const halfSizePx = (Math.max(entry.width_deg, entry.height_deg) / 2) / degPerPx;
+    const hitRadiusPx = Math.max(halfSizePx, MIN_TAP_RADIUS_PX);
+    if (dist <= hitRadiusPx && dist < closestDist) {
+      closestDist = dist;
+      closest = entry;
+    }
+  }
+  return closest;
 }
 
 // --- Smooth camera flight ---------------------------------------------
@@ -843,6 +930,13 @@ function setPanelOpen(panelEl, open) {
   panelEl.classList.toggle('open', open);
   backdropEl.classList.toggle('open',
     sidebarEl.classList.contains('open') || infoPanelEl.classList.contains('open'));
+
+  // The glossary button's chevron points right (closed, "opens this way")
+  // or left (open, "closes this way"), matching the drawer's slide direction.
+  const sidebarOpen = sidebarEl.classList.contains('open');
+  document.getElementById('sidebar-toggle-chevron').innerHTML = sidebarOpen ? '&#8249;' : '&#8250;';
+  document.getElementById('sidebar-toggle').setAttribute('aria-label',
+    sidebarOpen ? 'Close image glossary' : 'Image glossary');
 }
 
 function clearInfoPanel() {
