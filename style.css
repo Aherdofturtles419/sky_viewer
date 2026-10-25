@@ -435,9 +435,6 @@ html, body {
      Higher specificity than Aladin's own `.aladin-location` rule, so this
      wins regardless of which stylesheet lands later in the DOM. */
   #map-area .aladin-location {
-    top: auto;
-    left: auto;
-    bottom: 50px;
-    right: 16px;
+    display: none;
   }
 }
